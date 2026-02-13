@@ -249,3 +249,51 @@ class Data:
         ]], dtype=float)
         _, idxs = self.kdtree.query(vec, k=1)
         return self.rows[idxs[0][0]]
+
+    def nearestRowSkipSelf(self, target_row):
+        if not self.use_kdtree or getattr(self, "kdtree", None) is None:
+            return self.nearestRow_bruteforce(target_row)
+
+        vec = np.array([[
+            self._encode_value_for_kdtree(v, idx)
+            for idx, v in enumerate(target_row)
+        ]], dtype=float)
+
+        # query 2 nearest neighbors
+        dists, idxs = self.kdtree.query(vec, k=2)
+
+        # first neighbor may be self (distance 0)
+        if dists[0][0] > 0:
+            return self.rows[idxs[0][0]]
+        else:
+            return self.rows[idxs[0][1]]  # skip self
+
+    # ────────────────────────────────
+    # Add this inside the Data class
+    # ────────────────────────────────
+    def k_nearest_indices(self, row_idx, k=5):
+        """
+        FAST VERSION: Uses KD-Tree for O(log N) neighborhood lookup.
+        """
+        if not self.use_kdtree or getattr(self, "kdtree", None) is None:
+            # Fallback to your original logic if KD-Tree is disabled
+            target_row = self.rows[row_idx]
+            distances = []
+            for i, row in enumerate(self.rows):
+                if i == row_idx: continue
+                distances.append((i, self.xdist(target_row, row)))
+            distances.sort(key=lambda x: x[1])
+            return [idx for idx, _ in distances[:k]]
+
+        # Use the pre-computed vectors for the KD-Tree
+        query_vec = self.vectors[row_idx].reshape(1, -1)
+        
+        # Query k+1 neighbors because the closest one is always the row itself (dist=0)
+        # return_distance=False saves computation time
+        _, idxs = self.kdtree.query(query_vec, k=k+1)
+        
+        # Filter out the self-index and return the rest
+        neighbor_indices = [i for i in idxs[0] if i != row_idx]
+        
+        # Ensure we return exactly k neighbors (handles edge cases)
+        return neighbor_indices[:k]

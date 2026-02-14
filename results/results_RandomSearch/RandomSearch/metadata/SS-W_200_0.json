@@ -1,0 +1,5232 @@
+{
+  "optimizer": "RandomSearch",
+  "dataset": "SS-W",
+  "checkpoint": 200,
+  "seed": 1,
+  "runtime_seconds": 0.05605769157409668,
+  "best_value": 0.2452957838861835,
+  "n_evaluations": 200,
+  "start_timestamp": 1771024399.7479436,
+  "end_timestamp": 1771024399.8040016,
+  "evaluation_history": [
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.669819322107753,
+        0.4496469497192819
+      ],
+      "iteration": 1,
+      "timestamp": 0.0006983280181884766
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.1825609262659902,
+        0.5491869420075661
+      ],
+      "iteration": 2,
+      "timestamp": 0.0010445117950439453
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.3949196987145569,
+        0.6826144807545388
+      ],
+      "iteration": 3,
+      "timestamp": 0.0013337135314941406
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5456791372280494,
+        0.7040312693033554
+      ],
+      "iteration": 4,
+      "timestamp": 0.0016124248504638672
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5976143048336394,
+        0.40230515403355205
+      ],
+      "iteration": 5,
+      "timestamp": 0.0018970966339111328
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.8170461265523359,
+        0.45860343132860004
+      ],
+      "iteration": 6,
+      "timestamp": 0.0021855831146240234
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.2995930467801673,
+        0.8028462942784238
+      ],
+      "iteration": 7,
+      "timestamp": 0.00246429443359375
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.37566528681253697,
+        0.4755967091544462
+      ],
+      "iteration": 8,
+      "timestamp": 0.0027341842651367188
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7685696722587071,
+        0.46369745430863296
+      ],
+      "iteration": 9,
+      "timestamp": 0.0030171871185302734
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2705655326963179,
+        0.4194260437081585
+      ],
+      "iteration": 10,
+      "timestamp": 0.0032885074615478516
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.35423993899592277,
+        0.5558172576323713
+      ],
+      "iteration": 11,
+      "timestamp": 0.0035552978515625
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.8334020666687417,
+        0.4629064808667488
+      ],
+      "iteration": 12,
+      "timestamp": 0.003825664520263672
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.32499066264122756,
+        0.6242579123471614
+      ],
+      "iteration": 13,
+      "timestamp": 0.004095792770385742
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.41599100501104913,
+        0.34463174905790006
+      ],
+      "iteration": 14,
+      "timestamp": 0.004363536834716797
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3072068847458682,
+        0.4955058077142471
+      ],
+      "iteration": 15,
+      "timestamp": 0.00463557243347168
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.49522238476143043,
+        0.8368587023305106
+      ],
+      "iteration": 16,
+      "timestamp": 0.00492095947265625
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.6838953904572193,
+        0.3814763700809628
+      ],
+      "iteration": 17,
+      "timestamp": 0.005194187164306641
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5439906315166982,
+        0.6465509322540595
+      ],
+      "iteration": 18,
+      "timestamp": 0.005459785461425781
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6175573469451274,
+        0.703559875534444
+      ],
+      "iteration": 19,
+      "timestamp": 0.005722522735595703
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.34070854990818256,
+        0.7084646809456265
+      ],
+      "iteration": 20,
+      "timestamp": 0.006003618240356445
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2660174608609043,
+        0.4413571300095225
+      ],
+      "iteration": 21,
+      "timestamp": 0.006270408630371094
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.4535972174670857,
+        0.5373443424221934
+      ],
+      "iteration": 22,
+      "timestamp": 0.006550788879394531
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.8040010582339941,
+        0.45555669843945
+      ],
+      "iteration": 23,
+      "timestamp": 0.006821393966674805
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.333970089327399,
+        0.5855695201299436
+      ],
+      "iteration": 24,
+      "timestamp": 0.007085561752319336
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.8013710355130879,
+        0.37261614740928817
+      ],
+      "iteration": 25,
+      "timestamp": 0.007349252700805664
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5907280027389586,
+        0.6533193106979988
+      ],
+      "iteration": 26,
+      "timestamp": 0.007611513137817383
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.453873447664104,
+        0.5949704430056328
+      ],
+      "iteration": 27,
+      "timestamp": 0.00788569450378418
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7969941485885026,
+        0.44485215452254745
+      ],
+      "iteration": 28,
+      "timestamp": 0.008154153823852539
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.32418920601325907,
+        0.5813698801933771
+      ],
+      "iteration": 29,
+      "timestamp": 0.00841665267944336
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5908097046282175,
+        0.7201917698058269
+      ],
+      "iteration": 30,
+      "timestamp": 0.00868844985961914
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7060949609387157,
+        0.4479401412421151
+      ],
+      "iteration": 31,
+      "timestamp": 0.008967876434326172
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4498933984873479,
+        0.6822145936250181
+      ],
+      "iteration": 32,
+      "timestamp": 0.009234905242919922
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.48216953531077844,
+        0.7402416814401218
+      ],
+      "iteration": 33,
+      "timestamp": 0.009499788284301758
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5782898627408259,
+        0.44211290018278215
+      ],
+      "iteration": 34,
+      "timestamp": 0.009763002395629883
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.41736437486383027,
+        0.37904679449486955
+      ],
+      "iteration": 35,
+      "timestamp": 0.010040044784545898
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.676024775125276,
+        0.42733907843343366
+      ],
+      "iteration": 36,
+      "timestamp": 0.010305404663085938
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6398464004481933,
+        0.547993881231872
+      ],
+      "iteration": 37,
+      "timestamp": 0.010571718215942383
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5525693298888854,
+        0.6060550722134546
+      ],
+      "iteration": 38,
+      "timestamp": 0.010844707489013672
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.4228461825764884,
+        0.38141916476944937
+      ],
+      "iteration": 39,
+      "timestamp": 0.01111602783203125
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.46964191229107655,
+        0.3716343062453352
+      ],
+      "iteration": 40,
+      "timestamp": 0.011377811431884766
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.6168337016402627,
+        0.6429233454326246
+      ],
+      "iteration": 41,
+      "timestamp": 0.011636018753051758
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.16545799744778855,
+        0.6145682126585452
+      ],
+      "iteration": 42,
+      "timestamp": 0.011906623840332031
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7257150860593233,
+        0.3641019068620519
+      ],
+      "iteration": 43,
+      "timestamp": 0.012173891067504883
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.3291107721995705,
+        0.5697104476150617
+      ],
+      "iteration": 44,
+      "timestamp": 0.012436628341674805
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5851489308724206,
+        0.49903053498517447
+      ],
+      "iteration": 45,
+      "timestamp": 0.012707948684692383
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6650300351707179,
+        0.5753842244252377
+      ],
+      "iteration": 46,
+      "timestamp": 0.013000726699829102
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5177721061968936,
+        0.403682481918447
+      ],
+      "iteration": 47,
+      "timestamp": 0.013263463973999023
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6162384450185191,
+        0.5979786723197255
+      ],
+      "iteration": 48,
+      "timestamp": 0.013519287109375
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.8297177005197796,
+        0.6151738188890848
+      ],
+      "iteration": 49,
+      "timestamp": 0.013777971267700195
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7480586074885616,
+        0.6137040824240538
+      ],
+      "iteration": 50,
+      "timestamp": 0.014052629470825195
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.23684988639546822,
+        0.7723564132929751
+      ],
+      "iteration": 51,
+      "timestamp": 0.014311552047729492
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6356912757944536,
+        0.6854235915804784
+      ],
+      "iteration": 52,
+      "timestamp": 0.01456904411315918
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6760403373898969,
+        0.45530092469085837
+      ],
+      "iteration": 53,
+      "timestamp": 0.014845132827758789
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6659871144448939,
+        0.46960115246700607
+      ],
+      "iteration": 54,
+      "timestamp": 0.015116214752197266
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.6157871393445175,
+        0.17579797284177867
+      ],
+      "iteration": 55,
+      "timestamp": 0.015373945236206055
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.4796484484422172,
+        0.43892810447450004
+      ],
+      "iteration": 56,
+      "timestamp": 0.01563429832458496
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4546982476890038,
+        0.4126703164388821
+      ],
+      "iteration": 57,
+      "timestamp": 0.01590752601623535
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.31918204737153333,
+        0.48347674081538417
+      ],
+      "iteration": 58,
+      "timestamp": 0.016175031661987305
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.42206806934545105,
+        0.25602732213686097
+      ],
+      "iteration": 59,
+      "timestamp": 0.01643538475036621
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7980562731488687,
+        0.3712960248359065
+      ],
+      "iteration": 60,
+      "timestamp": 0.016692638397216797
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5510092128606555,
+        0.5217811973841773
+      ],
+      "iteration": 61,
+      "timestamp": 0.01697397232055664
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7608157739114195,
+        0.2466979059005624
+      ],
+      "iteration": 62,
+      "timestamp": 0.0172421932220459
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.4554335646923341,
+        0.48852895991392875
+      ],
+      "iteration": 63,
+      "timestamp": 0.01750349998474121
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.47820115783248773,
+        0.5573843531371897
+      ],
+      "iteration": 64,
+      "timestamp": 0.01776862144470215
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4323041488997479,
+        0.6860957539907573
+      ],
+      "iteration": 65,
+      "timestamp": 0.018039703369140625
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.45066762115223014,
+        0.3594308731565722
+      ],
+      "iteration": 66,
+      "timestamp": 0.018300533294677734
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7052545986491954,
+        0.6873416196693863
+      ],
+      "iteration": 67,
+      "timestamp": 0.018558263778686523
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.456036602446388,
+        0.4254546034599318
+      ],
+      "iteration": 68,
+      "timestamp": 0.018830537796020508
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.45990771577079903,
+        0.5101547678701972
+      ],
+      "iteration": 69,
+      "timestamp": 0.01909804344177246
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.4740927199726104,
+        0.6142095793594441
+      ],
+      "iteration": 70,
+      "timestamp": 0.019358158111572266
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.31982010022098406,
+        0.48523745429763143
+      ],
+      "iteration": 71,
+      "timestamp": 0.019618749618530273
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7128995611441377,
+        0.6562758352113002
+      ],
+      "iteration": 72,
+      "timestamp": 0.019886493682861328
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.46055354975256,
+        0.7036819868724822
+      ],
+      "iteration": 73,
+      "timestamp": 0.020145893096923828
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.8486453048647639,
+        0.6022201161377843
+      ],
+      "iteration": 74,
+      "timestamp": 0.02039790153503418
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4024635064894644,
+        0.48234198545334905
+      ],
+      "iteration": 75,
+      "timestamp": 0.02064800262451172
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.25511998506022593,
+        0.492956320994405
+      ],
+      "iteration": 76,
+      "timestamp": 0.020923614501953125
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2241860935603348,
+        0.2647274799465127
+      ],
+      "iteration": 77,
+      "timestamp": 0.021194934844970703
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7431370413022501,
+        0.6547219409322156
+      ],
+      "iteration": 78,
+      "timestamp": 0.021457195281982422
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.8062264620747612,
+        0.5104484951427735
+      ],
+      "iteration": 79,
+      "timestamp": 0.021712303161621094
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.18252591117059358,
+        0.37595165711136325
+      ],
+      "iteration": 80,
+      "timestamp": 0.021985292434692383
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2407482336829656,
+        0.2650481597216312
+      ],
+      "iteration": 81,
+      "timestamp": 0.022247314453125
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.6173861620342992,
+        0.40941346404013645
+      ],
+      "iteration": 82,
+      "timestamp": 0.022505521774291992
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.30324239783373275,
+        0.8167592860997138
+      ],
+      "iteration": 83,
+      "timestamp": 0.022774457931518555
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5749478664135204,
+        0.4090817832435736
+      ],
+      "iteration": 84,
+      "timestamp": 0.023049592971801758
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.41456705779825076,
+        0.7245542248597782
+      ],
+      "iteration": 85,
+      "timestamp": 0.02330780029296875
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.28218665380186136,
+        0.6785281513388515
+      ],
+      "iteration": 86,
+      "timestamp": 0.023566246032714844
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.528914687665349,
+        0.4242708935524676
+      ],
+      "iteration": 87,
+      "timestamp": 0.023831844329833984
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4677627688381212,
+        0.45386309118801693
+      ],
+      "iteration": 88,
+      "timestamp": 0.024092674255371094
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2906641974540134,
+        0.6463617146852091
+      ],
+      "iteration": 89,
+      "timestamp": 0.02434253692626953
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7505719132248125,
+        0.6238547249112079
+      ],
+      "iteration": 90,
+      "timestamp": 0.024595022201538086
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.3912392231317502,
+        0.8190909525949489
+      ],
+      "iteration": 91,
+      "timestamp": 0.02486276626586914
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.41080098976002977,
+        0.6414316069247028
+      ],
+      "iteration": 92,
+      "timestamp": 0.02512335777282715
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5509352921037068,
+        0.5871828199248308
+      ],
+      "iteration": 93,
+      "timestamp": 0.025373458862304688
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.23988452799651405,
+        0.41284248242449295
+      ],
+      "iteration": 94,
+      "timestamp": 0.02562856674194336
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3956472345855768,
+        0.5422909517148664
+      ],
+      "iteration": 95,
+      "timestamp": 0.02589702606201172
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.9047433782564038,
+        0.6757575440879694
+      ],
+      "iteration": 96,
+      "timestamp": 0.02632880210876465
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.39227022316287474,
+        0.5940727596557335
+      ],
+      "iteration": 97,
+      "timestamp": 0.026633501052856445
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.36375626381150994,
+        0.5452678281178404
+      ],
+      "iteration": 98,
+      "timestamp": 0.026914596557617188
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5099754116218991,
+        0.5039397408049336
+      ],
+      "iteration": 99,
+      "timestamp": 0.027182817459106445
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.6257119736063992,
+        0.38079980726210527
+      ],
+      "iteration": 100,
+      "timestamp": 0.027441740036010742
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.667737869214728,
+        0.2614596265263227
+      ],
+      "iteration": 101,
+      "timestamp": 0.02838873863220215
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.21021117993090344,
+        0.34164827204206016
+      ],
+      "iteration": 102,
+      "timestamp": 0.028650760650634766
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.47578511625011677,
+        0.31990035274775364
+      ],
+      "iteration": 103,
+      "timestamp": 0.02891993522644043
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.22528712378225269,
+        0.6302006641316648
+      ],
+      "iteration": 104,
+      "timestamp": 0.02918243408203125
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.13534112484048677,
+        0.5765222800937079
+      ],
+      "iteration": 105,
+      "timestamp": 0.029438018798828125
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3215630738585079,
+        0.45015464685896145
+      ],
+      "iteration": 106,
+      "timestamp": 0.029691696166992188
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7542796227707055,
+        0.4288319170434973
+      ],
+      "iteration": 107,
+      "timestamp": 0.02996349334716797
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7581546266612715,
+        0.2595327976202596
+      ],
+      "iteration": 108,
+      "timestamp": 0.03021979331970215
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5157606834946622,
+        0.2502715877169207
+      ],
+      "iteration": 109,
+      "timestamp": 0.030475854873657227
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.500330698123191,
+        0.460217831225629
+      ],
+      "iteration": 110,
+      "timestamp": 0.030729293823242188
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.33515671200473096,
+        0.15472166590668024
+      ],
+      "iteration": 111,
+      "timestamp": 0.030998706817626953
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3050904167574465,
+        0.19753874147214667
+      ],
+      "iteration": 112,
+      "timestamp": 0.03125572204589844
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4890013694792865,
+        0.16233107244007638
+      ],
+      "iteration": 113,
+      "timestamp": 0.03151106834411621
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5120413022503035,
+        0.338740152023115
+      ],
+      "iteration": 114,
+      "timestamp": 0.031764984130859375
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.8158439416103831,
+        0.36310466426807797
+      ],
+      "iteration": 115,
+      "timestamp": 0.03204512596130371
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.47799884839241813,
+        0.46570679087553324
+      ],
+      "iteration": 116,
+      "timestamp": 0.0323026180267334
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.8576869806094183,
+        0.5363344486535585
+      ],
+      "iteration": 117,
+      "timestamp": 0.03256797790527344
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5303775405396992,
+        0.5007263424408968
+      ],
+      "iteration": 118,
+      "timestamp": 0.032827138900756836
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.34520993494973373,
+        0.6913663433649817
+      ],
+      "iteration": 119,
+      "timestamp": 0.03308463096618652
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2798523141087492,
+        0.5090497152660624
+      ],
+      "iteration": 120,
+      "timestamp": 0.03333854675292969
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.3868039777148371,
+        0.42489575157053405
+      ],
+      "iteration": 121,
+      "timestamp": 0.03358864784240723
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.30229309969186713,
+        0.6370873035561345
+      ],
+      "iteration": 122,
+      "timestamp": 0.03385424613952637
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3577920258956082,
+        0.4557305145782793
+      ],
+      "iteration": 123,
+      "timestamp": 0.03411459922790527
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.3502987954807183,
+        0.7821198198252713
+      ],
+      "iteration": 124,
+      "timestamp": 0.03436994552612305
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6880660773755796,
+        0.38547689152937803
+      ],
+      "iteration": 125,
+      "timestamp": 0.034621238708496094
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5570279187027295,
+        0.1781516413799027
+      ],
+      "iteration": 126,
+      "timestamp": 0.0348813533782959
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6941781568053784,
+        0.37370414843018174
+      ],
+      "iteration": 127,
+      "timestamp": 0.03513741493225098
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7500661396246382,
+        0.18184193402357507
+      ],
+      "iteration": 128,
+      "timestamp": 0.03539752960205078
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7591972983908618,
+        0.4822396759539124
+      ],
+      "iteration": 129,
+      "timestamp": 0.03565621376037598
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.344357900961748,
+        0.43489898037032804
+      ],
+      "iteration": 130,
+      "timestamp": 0.03593134880065918
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.6592058576364033,
+        0.3655705432249393
+      ],
+      "iteration": 131,
+      "timestamp": 0.036190032958984375
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3297293722182453,
+        0.7071165057675609
+      ],
+      "iteration": 132,
+      "timestamp": 0.03644132614135742
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4624910516978429,
+        0.5118527755302088
+      ],
+      "iteration": 133,
+      "timestamp": 0.036690711975097656
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7729309969186715,
+        0.6127238914133173
+      ],
+      "iteration": 134,
+      "timestamp": 0.03695321083068848
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.48596283731208567,
+        0.45835865860145086
+      ],
+      "iteration": 135,
+      "timestamp": 0.037206411361694336
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.4823796258831585,
+        0.5162207310948824
+      ],
+      "iteration": 136,
+      "timestamp": 0.03745532035827637
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4866008901615364,
+        0.6716970670726786
+      ],
+      "iteration": 137,
+      "timestamp": 0.03770303726196289
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6929526284664945,
+        0.28817670720726396
+      ],
+      "iteration": 138,
+      "timestamp": 0.03797173500061035
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.14229745712596098,
+        0.473563170340366
+      ],
+      "iteration": 139,
+      "timestamp": 0.03823256492614746
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.8805207133742102,
+        0.6701222708528488
+      ],
+      "iteration": 140,
+      "timestamp": 0.03848528861999512
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7460432942201749,
+        0.6521515522716282
+      ],
+      "iteration": 141,
+      "timestamp": 0.038733720779418945
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7261625011671698,
+        0.6582356671816986
+      ],
+      "iteration": 142,
+      "timestamp": 0.03900027275085449
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7511399358834697,
+        0.4071236014263937
+      ],
+      "iteration": 143,
+      "timestamp": 0.03925466537475586
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.15402362351769416,
+        0.6229784935531264
+      ],
+      "iteration": 144,
+      "timestamp": 0.03951120376586914
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.39390037038189785,
+        0.41591726791832695
+      ],
+      "iteration": 145,
+      "timestamp": 0.039769649505615234
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6347186342556569,
+        0.6385861927279951
+      ],
+      "iteration": 146,
+      "timestamp": 0.040036678314208984
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5284945065205887,
+        0.5690426856133594
+      ],
+      "iteration": 147,
+      "timestamp": 0.04030203819274902
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7589093964953779,
+        0.3768234880608661
+      ],
+      "iteration": 148,
+      "timestamp": 0.04055285453796387
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.694026424725326,
+        0.683061672276272
+      ],
+      "iteration": 149,
+      "timestamp": 0.04080986976623535
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.3947835288991255,
+        0.6973327473455904
+      ],
+      "iteration": 150,
+      "timestamp": 0.04106879234313965
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5580744809984749,
+        0.7021093908569417
+      ],
+      "iteration": 151,
+      "timestamp": 0.041322946548461914
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7639982570263625,
+        0.4165305748638761
+      ],
+      "iteration": 152,
+      "timestamp": 0.04157733917236328
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.4294834884372374,
+        0.44472949313343846
+      ],
+      "iteration": 153,
+      "timestamp": 0.04184556007385254
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5186747175448972,
+        0.36498968929265063
+      ],
+      "iteration": 154,
+      "timestamp": 0.04210376739501953
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.618296554514613,
+        0.7670775731526683
+      ],
+      "iteration": 155,
+      "timestamp": 0.0423581600189209
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.47095692365152986,
+        0.35946387622090736
+      ],
+      "iteration": 156,
+      "timestamp": 0.04260969161987305
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.1901981076286221,
+        0.6002855865167077
+      ],
+      "iteration": 157,
+      "timestamp": 0.04286646842956543
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2629166796352205,
+        0.5855370671166811
+      ],
+      "iteration": 158,
+      "timestamp": 0.043120384216308594
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6381851286999283,
+        0.7857298050123959
+      ],
+      "iteration": 159,
+      "timestamp": 0.04337000846862793
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.670815307043481,
+        0.3904592541417464
+      ],
+      "iteration": 160,
+      "timestamp": 0.04363083839416504
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.1670220050421738,
+        0.45729265962344634
+      ],
+      "iteration": 161,
+      "timestamp": 0.043898582458496094
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.479870210713063,
+        0.5095062576560235
+      ],
+      "iteration": 162,
+      "timestamp": 0.044156551361083984
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7933953748949547,
+        0.33455261321013663
+      ],
+      "iteration": 163,
+      "timestamp": 0.04440641403198242
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.42907886955709795,
+        0.4706462495042675
+      ],
+      "iteration": 164,
+      "timestamp": 0.04465746879577637
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5307665971552179,
+        0.5176057596947871
+      ],
+      "iteration": 165,
+      "timestamp": 0.04491758346557617
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5608523452332783,
+        0.4189282474877798
+      ],
+      "iteration": 166,
+      "timestamp": 0.04517173767089844
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.31358741324037476,
+        0.7944409638434939
+      ],
+      "iteration": 167,
+      "timestamp": 0.04541969299316406
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2694956270036415,
+        0.4023183552592857
+      ],
+      "iteration": 168,
+      "timestamp": 0.04567599296569824
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.8222089078402688,
+        0.7476690210686063
+      ],
+      "iteration": 169,
+      "timestamp": 0.04593944549560547
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6180242148837499,
+        0.41176273216968196
+      ],
+      "iteration": 170,
+      "timestamp": 0.046196937561035156
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5583429300631828,
+        0.7128386870720951
+      ],
+      "iteration": 171,
+      "timestamp": 0.04645276069641113
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.5480835071119547,
+        0.5181684619416906
+      ],
+      "iteration": 172,
+      "timestamp": 0.04670262336730957
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.6602329671013727,
+        0.5665311524175018
+      ],
+      "iteration": 173,
+      "timestamp": 0.04697012901306152
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3455717576021662,
+        0.5316100599940712
+      ],
+      "iteration": 174,
+      "timestamp": 0.047226667404174805
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.683412960253976,
+        0.2945688507177898
+      ],
+      "iteration": 175,
+      "timestamp": 0.047476768493652344
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4617674063929782,
+        0.5275226304762403
+      ],
+      "iteration": 176,
+      "timestamp": 0.04773712158203125
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.42265943540103956,
+        0.8010927314601153
+      ],
+      "iteration": 177,
+      "timestamp": 0.048004150390625
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3333203647794827,
+        0.4846472494971168
+      ],
+      "iteration": 178,
+      "timestamp": 0.048256635665893555
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.7349318372809612,
+        0.4743838465401524
+      ],
+      "iteration": 179,
+      "timestamp": 0.04850649833679199
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.46750210090572375,
+        0.512769710667635
+      ],
+      "iteration": 180,
+      "timestamp": 0.04875469207763672
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.1400370381897973,
+        0.4165817296135944
+      ],
+      "iteration": 181,
+      "timestamp": 0.04901742935180664
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.3606632637181363,
+        0.8015454234925707
+      ],
+      "iteration": 182,
+      "timestamp": 0.049265384674072266
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.581476236421924,
+        0.5632583485376624
+      ],
+      "iteration": 183,
+      "timestamp": 0.04951286315917969
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.2900611596999594,
+        0.6360466069274536
+      ],
+      "iteration": 184,
+      "timestamp": 0.04977154731750488
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.4215700768775872,
+        0.5333520717398605
+      ],
+      "iteration": 185,
+      "timestamp": 0.05004000663757324
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.40771966136512194,
+        0.3932876167552166
+      ],
+      "iteration": 186,
+      "timestamp": 0.050296783447265625
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6479621214479131,
+        0.7357648157631438
+      ],
+      "iteration": 187,
+      "timestamp": 0.05054807662963867
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.623875626381151,
+        0.5353614083067607
+      ],
+      "iteration": 188,
+      "timestamp": 0.05080604553222656
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.6616374614833951,
+        0.4081675983615075
+      ],
+      "iteration": 189,
+      "timestamp": 0.05107426643371582
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.8030478695259733,
+        0.2785651147709063
+      ],
+      "iteration": 190,
+      "timestamp": 0.05132770538330078
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7120436365899965,
+        0.454421393026342
+      ],
+      "iteration": 191,
+      "timestamp": 0.051581382751464844
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.7902128917800116,
+        0.5681730548681457
+      ],
+      "iteration": 192,
+      "timestamp": 0.05184531211853027
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.35741464097855524,
+        0.48797835879061324
+      ],
+      "iteration": 193,
+      "timestamp": 0.05216193199157715
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 1.0,
+        "inline": 0.0,
+        "mergereturn": 0.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 0.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.40492623486569757,
+        0.48431996910913244
+      ],
+      "iteration": 194,
+      "timestamp": 0.05243945121765137
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 0.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.39656540819820085,
+        0.7102550971857741
+      ],
+      "iteration": 195,
+      "timestamp": 0.05269503593444824
+    },
+    {
+      "config": {
+        "ee_instrument": 1.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 1.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.43917877929596316,
+        0.5913439562863417
+      ],
+      "iteration": 196,
+      "timestamp": 0.05296063423156738
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 0.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 0.0,
+        "gvn": 0.0,
+        "sccp": 1.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3279008061253075,
+        0.4627502663622317
+      ],
+      "iteration": 197,
+      "timestamp": 0.05321764945983887
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 0.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.3427627688381214,
+        0.28287091456441704
+      ],
+      "iteration": 198,
+      "timestamp": 0.05347013473510742
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 0.0,
+        "ipsccp": 1.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 1.0,
+        "instcombine": 0.0,
+        "inline": 1.0,
+        "mergereturn": 1.0,
+        "jump_threading": 1.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 0.0,
+        "sink": 0.0,
+        "gvn": 1.0,
+        "sccp": 1.0,
+        "adce": 1.0
+      },
+      "objectives": [
+        0.8505361200161846,
+        0.49328195122917284
+      ],
+      "iteration": 199,
+      "timestamp": 0.05372738838195801
+    },
+    {
+      "config": {
+        "ee_instrument": 0.0,
+        "simplifycfg": 1.0,
+        "ipsccp": 0.0,
+        "called_value_propagation": 1.0,
+        "basicaa": 0.0,
+        "instcombine": 0.0,
+        "inline": 0.0,
+        "mergereturn": 1.0,
+        "jump_threading": 0.0,
+        "pgo_memop_opt": 1.0,
+        "tailcallelim": 0.0,
+        "licm": 1.0,
+        "sink": 1.0,
+        "gvn": 1.0,
+        "sccp": 0.0,
+        "adce": 0.0
+      },
+      "objectives": [
+        0.5355753369230288,
+        0.44813540937276053
+      ],
+      "iteration": 200,
+      "timestamp": 0.05399656295776367
+    }
+  ],
+  "frontier_history": [
+    {
+      "iteration": 1,
+      "frontier_size": 5,
+      "total_population": 100,
+      "frontier_percentage": 5.0
+    },
+    {
+      "iteration": 2,
+      "frontier_size": 5,
+      "total_population": 100,
+      "frontier_percentage": 5.0
+    }
+  ],
+  "frontier_explosion": {
+    "final_frontier_size": 5,
+    "final_population": 100,
+    "final_percentage": 5.0
+  }
+}

@@ -1,0 +1,3235 @@
+{
+  "optimizer": "EZR",
+  "dataset": "storm",
+  "checkpoint": 150,
+  "seed": 2,
+  "runtime_seconds": 0.03856635093688965,
+  "best_value": 0.0,
+  "n_evaluations": 146,
+  "start_timestamp": 1770823598.357803,
+  "end_timestamp": 1770823598.3963697,
+  "evaluation_history": [
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.149412468016
+      ],
+      "iteration": 1,
+      "timestamp": 0.038275718688964844
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000152517284157
+      ],
+      "iteration": 2,
+      "timestamp": 0.03827834129333496
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000200178935457
+      ],
+      "iteration": 3,
+      "timestamp": 0.03828024864196777
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.232716863918
+      ],
+      "iteration": 4,
+      "timestamp": 0.03828167915344238
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00544432233983
+      ],
+      "iteration": 5,
+      "timestamp": 0.038283348083496094
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.731911382011
+      ],
+      "iteration": 6,
+      "timestamp": 0.0382847785949707
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00328320689378
+      ],
+      "iteration": 7,
+      "timestamp": 0.03828597068786621
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000791183411567
+      ],
+      "iteration": 8,
+      "timestamp": 0.03828787803649902
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0013495056125
+      ],
+      "iteration": 9,
+      "timestamp": 0.03828930854797363
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.732897297312
+      ],
+      "iteration": 10,
+      "timestamp": 0.038291215896606445
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.285698917263
+      ],
+      "iteration": 11,
+      "timestamp": 0.03829240798950195
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000684966017243
+      ],
+      "iteration": 12,
+      "timestamp": 0.038294076919555664
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0146580004167
+      ],
+      "iteration": 13,
+      "timestamp": 0.03829550743103027
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        1.90646605197e-05
+      ],
+      "iteration": 14,
+      "timestamp": 0.03829669952392578
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        2.17881834511e-05
+      ],
+      "iteration": 15,
+      "timestamp": 0.03829836845397949
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000783012842772
+      ],
+      "iteration": 16,
+      "timestamp": 0.038299560546875
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.208307289645
+      ],
+      "iteration": 17,
+      "timestamp": 0.03830122947692871
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000118473247515
+      ],
+      "iteration": 18,
+      "timestamp": 0.03830265998840332
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00201132168483
+      ],
+      "iteration": 19,
+      "timestamp": 0.03830409049987793
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.304670978003
+      ],
+      "iteration": 20,
+      "timestamp": 0.03830552101135254
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0145531447838
+      ],
+      "iteration": 21,
+      "timestamp": 0.03830695152282715
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000118473247515
+      ],
+      "iteration": 22,
+      "timestamp": 0.03830885887145996
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00130865276853
+      ],
+      "iteration": 23,
+      "timestamp": 0.03831028938293457
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.178319940409
+      ],
+      "iteration": 24,
+      "timestamp": 0.03831195831298828
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00619329114596
+      ],
+      "iteration": 25,
+      "timestamp": 0.03831315040588379
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.172291422401
+      ],
+      "iteration": 26,
+      "timestamp": 0.0383150577545166
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.781535331582
+      ],
+      "iteration": 27,
+      "timestamp": 0.03831624984741211
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000328184513232
+      ],
+      "iteration": 28,
+      "timestamp": 0.03831768035888672
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.382819744997
+      ],
+      "iteration": 29,
+      "timestamp": 0.03831911087036133
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000122558531912
+      ],
+      "iteration": 30,
+      "timestamp": 0.03832054138183594
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.37962641436
+      ],
+      "iteration": 31,
+      "timestamp": 0.03832197189331055
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000160687852952
+      ],
+      "iteration": 32,
+      "timestamp": 0.038323163986206055
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.143687622814
+      ],
+      "iteration": 33,
+      "timestamp": 0.038324594497680664
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        2.72352293138e-06
+      ],
+      "iteration": 34,
+      "timestamp": 0.03832602500915527
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.89817156288
+      ],
+      "iteration": 35,
+      "timestamp": 0.03832745552062988
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000130729100706
+      ],
+      "iteration": 36,
+      "timestamp": 0.03832888603210449
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        8.03439264758e-05
+      ],
+      "iteration": 37,
+      "timestamp": 0.038330078125
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.209272778524
+      ],
+      "iteration": 38,
+      "timestamp": 0.03833150863647461
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        5.3108697162e-05
+      ],
+      "iteration": 39,
+      "timestamp": 0.03833317756652832
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.148818740017
+      ],
+      "iteration": 40,
+      "timestamp": 0.03833436965942383
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.476592001286
+      ],
+      "iteration": 41,
+      "timestamp": 0.03833580017089844
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00243619126212
+      ],
+      "iteration": 42,
+      "timestamp": 0.03833723068237305
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00286650788528
+      ],
+      "iteration": 43,
+      "timestamp": 0.038338422775268555
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.243103018617
+      ],
+      "iteration": 44,
+      "timestamp": 0.038340091705322266
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        6.67263118189e-05
+      ],
+      "iteration": 45,
+      "timestamp": 0.038341522216796875
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.488861472091
+      ],
+      "iteration": 46,
+      "timestamp": 0.038343191146850586
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0145585918297
+      ],
+      "iteration": 47,
+      "timestamp": 0.038344621658325195
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.30384983584
+      ],
+      "iteration": 48,
+      "timestamp": 0.038346290588378906
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.593450199702
+      ],
+      "iteration": 49,
+      "timestamp": 0.038347482681274414
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0011152826404
+      ],
+      "iteration": 50,
+      "timestamp": 0.03834891319274902
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.732445192505
+      ],
+      "iteration": 51,
+      "timestamp": 0.038350582122802734
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00108260036522
+      ],
+      "iteration": 52,
+      "timestamp": 0.038352251052856445
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000200178935457
+      ],
+      "iteration": 53,
+      "timestamp": 0.038353681564331055
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000792545173032
+      ],
+      "iteration": 54,
+      "timestamp": 0.038355112075805664
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.402449536524
+      ],
+      "iteration": 55,
+      "timestamp": 0.03835654258728027
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00250155581247
+      ],
+      "iteration": 56,
+      "timestamp": 0.03835797309875488
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        2.99587522452e-05
+      ],
+      "iteration": 57,
+      "timestamp": 0.038359642028808594
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00136312322716
+      ],
+      "iteration": 58,
+      "timestamp": 0.0383608341217041
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000283246384864
+      ],
+      "iteration": 59,
+      "timestamp": 0.03836202621459961
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000106217394324
+      ],
+      "iteration": 60,
+      "timestamp": 0.03836345672607422
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.382028561585
+      ],
+      "iteration": 61,
+      "timestamp": 0.03836488723754883
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        6.80880732846e-05
+      ],
+      "iteration": 62,
+      "timestamp": 0.038366079330444336
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000174305467608
+      ],
+      "iteration": 63,
+      "timestamp": 0.03836774826049805
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        7.08115962159e-05
+      ],
+      "iteration": 64,
+      "timestamp": 0.038368940353393555
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00134133504371
+      ],
+      "iteration": 65,
+      "timestamp": 0.038370609283447266
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00164909313495
+      ],
+      "iteration": 66,
+      "timestamp": 0.038372039794921875
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00015796433002
+      ],
+      "iteration": 67,
+      "timestamp": 0.03837323188781738
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0150283995354
+      ],
+      "iteration": 68,
+      "timestamp": 0.03837466239929199
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        1.08940917255e-05
+      ],
+      "iteration": 69,
+      "timestamp": 0.0383758544921875
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00253423808765
+      ],
+      "iteration": 70,
+      "timestamp": 0.03837728500366211
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        1.0
+      ],
+      "iteration": 71,
+      "timestamp": 0.03837871551513672
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0023735502347
+      ],
+      "iteration": 72,
+      "timestamp": 0.03837990760803223
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0147506001964
+      ],
+      "iteration": 73,
+      "timestamp": 0.03838157653808594
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        4.22146054364e-05
+      ],
+      "iteration": 74,
+      "timestamp": 0.038382768630981445
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.370629256356
+      ],
+      "iteration": 75,
+      "timestamp": 0.038384199142456055
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00100906524608
+      ],
+      "iteration": 76,
+      "timestamp": 0.03838539123535156
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000870165576577
+      ],
+      "iteration": 77,
+      "timestamp": 0.03838682174682617
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0150801464711
+      ],
+      "iteration": 78,
+      "timestamp": 0.03838849067687988
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.185796010856
+      ],
+      "iteration": 79,
+      "timestamp": 0.03838968276977539
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        1.36176146569e-05
+      ],
+      "iteration": 80,
+      "timestamp": 0.0383913516998291
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.863104843377
+      ],
+      "iteration": 81,
+      "timestamp": 0.03839254379272461
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000976382970901
+      ],
+      "iteration": 82,
+      "timestamp": 0.03839397430419922
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000559683962399
+      ],
+      "iteration": 83,
+      "timestamp": 0.03839540481567383
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0144101598299
+      ],
+      "iteration": 84,
+      "timestamp": 0.038396596908569336
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000826589209674
+      ],
+      "iteration": 85,
+      "timestamp": 0.038398027420043945
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000750330567596
+      ],
+      "iteration": 86,
+      "timestamp": 0.038399457931518555
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.301326491844
+      ],
+      "iteration": 87,
+      "timestamp": 0.03840065002441406
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0150461024344
+      ],
+      "iteration": 88,
+      "timestamp": 0.03840208053588867
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.339419045324
+      ],
+      "iteration": 89,
+      "timestamp": 0.03840351104736328
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        1.36176146569e-05
+      ],
+      "iteration": 90,
+      "timestamp": 0.03840494155883789
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000821142163812
+      ],
+      "iteration": 91,
+      "timestamp": 0.0384061336517334
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.201480779418
+      ],
+      "iteration": 92,
+      "timestamp": 0.03840756416320801
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.277502475001
+      ],
+      "iteration": 93,
+      "timestamp": 0.03840899467468262
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0368519887845
+      ],
+      "iteration": 94,
+      "timestamp": 0.03841042518615723
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0804814643838
+      ],
+      "iteration": 95,
+      "timestamp": 0.038411855697631836
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00257509093162
+      ],
+      "iteration": 96,
+      "timestamp": 0.038413286209106445
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0
+      ],
+      "iteration": 97,
+      "timestamp": 0.03841447830200195
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00245253239971
+      ],
+      "iteration": 98,
+      "timestamp": 0.03841590881347656
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00249883228954
+      ],
+      "iteration": 99,
+      "timestamp": 0.03841733932495117
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00154423750209
+      ],
+      "iteration": 100,
+      "timestamp": 0.03841900825500488
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000859271484851
+      ],
+      "iteration": 101,
+      "timestamp": 0.03842020034790039
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0
+      ],
+      "iteration": 102,
+      "timestamp": 0.038421630859375
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00525367573464
+      ],
+      "iteration": 103,
+      "timestamp": 0.03842306137084961
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0142467484541
+      ],
+      "iteration": 104,
+      "timestamp": 0.03842449188232422
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0147791971871
+      ],
+      "iteration": 105,
+      "timestamp": 0.03842592239379883
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0151455110214
+      ],
+      "iteration": 106,
+      "timestamp": 0.038427114486694336
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00257781445455
+      ],
+      "iteration": 107,
+      "timestamp": 0.038428544998168945
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0147628560496
+      ],
+      "iteration": 108,
+      "timestamp": 0.038429975509643555
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00233542091366
+      ],
+      "iteration": 109,
+      "timestamp": 0.03843116760253906
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.30751978299
+      ],
+      "iteration": 110,
+      "timestamp": 0.038433074951171875
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00138763493354
+      ],
+      "iteration": 111,
+      "timestamp": 0.038434505462646484
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0001388996695
+      ],
+      "iteration": 112,
+      "timestamp": 0.038436174392700195
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0148323058843
+      ],
+      "iteration": 113,
+      "timestamp": 0.0384373664855957
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000142984953898
+      ],
+      "iteration": 114,
+      "timestamp": 0.03843879699707031
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00325597166447
+      ],
+      "iteration": 115,
+      "timestamp": 0.03844022750854492
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000960041833312
+      ],
+      "iteration": 116,
+      "timestamp": 0.03844141960144043
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000381293210394
+      ],
+      "iteration": 117,
+      "timestamp": 0.03844308853149414
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.275935087554
+      ],
+      "iteration": 118,
+      "timestamp": 0.03844428062438965
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00565539536702
+      ],
+      "iteration": 119,
+      "timestamp": 0.03844571113586426
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0149466938474
+      ],
+      "iteration": 120,
+      "timestamp": 0.03844714164733887
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        4.49381283678e-05
+      ],
+      "iteration": 121,
+      "timestamp": 0.038448333740234375
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00129912043827
+      ],
+      "iteration": 122,
+      "timestamp": 0.03844952583312988
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000339078604957
+      ],
+      "iteration": 123,
+      "timestamp": 0.038451194763183594
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00131137629146
+      ],
+      "iteration": 124,
+      "timestamp": 0.0384523868560791
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00100361820021
+      ],
+      "iteration": 125,
+      "timestamp": 0.03845381736755371
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000615516182492
+      ],
+      "iteration": 126,
+      "timestamp": 0.03845524787902832
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00246615001437
+      ],
+      "iteration": 127,
+      "timestamp": 0.03845643997192383
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.00724320923601
+      ],
+      "iteration": 128,
+      "timestamp": 0.03845787048339844
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000117111486049
+      ],
+      "iteration": 129,
+      "timestamp": 0.038468360900878906
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.000129367339241
+      ],
+      "iteration": 130,
+      "timestamp": 0.038469791412353516
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.201985992922
+      ],
+      "iteration": 131,
+      "timestamp": 0.03847146034240723
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00162594319004
+      ],
+      "iteration": 132,
+      "timestamp": 0.03851723670959473
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.137360879044
+      ],
+      "iteration": 133,
+      "timestamp": 0.038518667221069336
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        1.49793761226e-05
+      ],
+      "iteration": 134,
+      "timestamp": 0.03852033615112305
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.319567286677
+      ],
+      "iteration": 135,
+      "timestamp": 0.038521528244018555
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000559683962399
+      ],
+      "iteration": 136,
+      "timestamp": 0.038522958755493164
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000114387963118
+      ],
+      "iteration": 137,
+      "timestamp": 0.03852415084838867
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.0029808958484
+      ],
+      "iteration": 138,
+      "timestamp": 0.03852558135986328
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000921912512273
+      ],
+      "iteration": 139,
+      "timestamp": 0.03852701187133789
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 10,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 100,
+        "topology.level": 2,
+        "topology.priority": 0
+      },
+      "objectives": [
+        6.53645503532e-05
+      ],
+      "iteration": 140,
+      "timestamp": 0.0385282039642334
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00236265614297
+      ],
+      "iteration": 141,
+      "timestamp": 0.038529396057128906
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 0,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.000832036255537
+      ],
+      "iteration": 142,
+      "timestamp": 0.03853106498718262
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 1,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.00174986348341
+      ],
+      "iteration": 143,
+      "timestamp": 0.038532257080078125
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 2,
+        "Message.size": 1000000,
+        "Component.spout_num": 10,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 2,
+        "topology.priority": 29
+      },
+      "objectives": [
+        5.3108697162e-05
+      ],
+      "iteration": 144,
+      "timestamp": 0.038533926010131836
+    },
+    {
+      "config": {
+        "Topology.workers": 2,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 10,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1000,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 1024,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 0
+      },
+      "objectives": [
+        0.299561648984
+      ],
+      "iteration": 145,
+      "timestamp": 0.038535118103027344
+    },
+    {
+      "config": {
+        "Topology.workers": 4,
+        "Component.bolt_num": 10,
+        "Topology.acker.executors": 4,
+        "Message.size": 1000000,
+        "Component.spout_num": 1,
+        "topology.serialized.message.size.metrics": 1,
+        "Topology.max.spout.pending": 1,
+        "Storm.messaging.netty.min_wait_ms": 1000,
+        "Topology.transfer.buffer.size": 512,
+        "Storm.messaging.netty.max_wait_ms": 10000,
+        "topology.level": 5,
+        "topology.priority": 29
+      },
+      "objectives": [
+        0.0
+      ],
+      "iteration": 146,
+      "timestamp": 0.03853631019592285
+    }
+  ],
+  "cluster_centroids": [
+    {
+      "Topology.workers": 2,
+      "Component.bolt_num": 1,
+      "Topology.acker.executors": 4,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 1,
+      "Topology.max.spout.pending": 1,
+      "Storm.messaging.netty.min_wait_ms": 10,
+      "Topology.transfer.buffer.size": 1024,
+      "Storm.messaging.netty.max_wait_ms": 100,
+      "topology.level": 5,
+      "topology.priority": 29
+    },
+    {
+      "Topology.workers": 2,
+      "Component.bolt_num": 10,
+      "Topology.acker.executors": 2,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 1,
+      "Topology.max.spout.pending": 1,
+      "Storm.messaging.netty.min_wait_ms": 1000,
+      "Topology.transfer.buffer.size": 1024,
+      "Storm.messaging.netty.max_wait_ms": 10000,
+      "topology.level": 5,
+      "topology.priority": 0
+    },
+    {
+      "Topology.workers": 4,
+      "Component.bolt_num": 10,
+      "Topology.acker.executors": 4,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 1,
+      "Topology.max.spout.pending": 1,
+      "Storm.messaging.netty.min_wait_ms": 1000,
+      "Topology.transfer.buffer.size": 512,
+      "Storm.messaging.netty.max_wait_ms": 10000,
+      "topology.level": 5,
+      "topology.priority": 29
+    },
+    {
+      "Topology.workers": 2,
+      "Component.bolt_num": 10,
+      "Topology.acker.executors": 4,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 0,
+      "Topology.max.spout.pending": 1000,
+      "Storm.messaging.netty.min_wait_ms": 10,
+      "Topology.transfer.buffer.size": 512,
+      "Storm.messaging.netty.max_wait_ms": 100,
+      "topology.level": 2,
+      "topology.priority": 0
+    },
+    {
+      "Topology.workers": 2,
+      "Component.bolt_num": 1,
+      "Topology.acker.executors": 2,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 0,
+      "Topology.max.spout.pending": 1000,
+      "Storm.messaging.netty.min_wait_ms": 10,
+      "Topology.transfer.buffer.size": 512,
+      "Storm.messaging.netty.max_wait_ms": 100,
+      "topology.level": 5,
+      "topology.priority": 29
+    },
+    {
+      "Topology.workers": 4,
+      "Component.bolt_num": 10,
+      "Topology.acker.executors": 4,
+      "Message.size": 1000000,
+      "Component.spout_num": 10,
+      "topology.serialized.message.size.metrics": 0,
+      "Topology.max.spout.pending": 1000,
+      "Storm.messaging.netty.min_wait_ms": 1000,
+      "Topology.transfer.buffer.size": 512,
+      "Storm.messaging.netty.max_wait_ms": 10000,
+      "topology.level": 5,
+      "topology.priority": 0
+    },
+    {
+      "Topology.workers": 4,
+      "Component.bolt_num": 10,
+      "Topology.acker.executors": 4,
+      "Message.size": 1000000,
+      "Component.spout_num": 10,
+      "topology.serialized.message.size.metrics": 0,
+      "Topology.max.spout.pending": 1,
+      "Storm.messaging.netty.min_wait_ms": 1000,
+      "Topology.transfer.buffer.size": 1024,
+      "Storm.messaging.netty.max_wait_ms": 10000,
+      "topology.level": 5,
+      "topology.priority": 0
+    },
+    {
+      "Topology.workers": 4,
+      "Component.bolt_num": 10,
+      "Topology.acker.executors": 2,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 1,
+      "Topology.max.spout.pending": 1000,
+      "Storm.messaging.netty.min_wait_ms": 1000,
+      "Topology.transfer.buffer.size": 1024,
+      "Storm.messaging.netty.max_wait_ms": 10000,
+      "topology.level": 5,
+      "topology.priority": 29
+    },
+    {
+      "Topology.workers": 4,
+      "Component.bolt_num": 1,
+      "Topology.acker.executors": 4,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 1,
+      "Topology.max.spout.pending": 1000,
+      "Storm.messaging.netty.min_wait_ms": 10,
+      "Topology.transfer.buffer.size": 512,
+      "Storm.messaging.netty.max_wait_ms": 100,
+      "topology.level": 5,
+      "topology.priority": 0
+    },
+    {
+      "Topology.workers": 4,
+      "Component.bolt_num": 1,
+      "Topology.acker.executors": 2,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 1,
+      "Topology.max.spout.pending": 1000,
+      "Storm.messaging.netty.min_wait_ms": 10,
+      "Topology.transfer.buffer.size": 1024,
+      "Storm.messaging.netty.max_wait_ms": 100,
+      "topology.level": 2,
+      "topology.priority": 29
+    },
+    {
+      "Topology.workers": 2,
+      "Component.bolt_num": 10,
+      "Topology.acker.executors": 4,
+      "Message.size": 1000000,
+      "Component.spout_num": 1,
+      "topology.serialized.message.size.metrics": 0,
+      "Topology.max.spout.pending": 1000,
+      "Storm.messaging.netty.min_wait_ms": 10,
+      "Topology.transfer.buffer.size": 512,
+      "Storm.messaging.netty.max_wait_ms": 100,
+      "topology.level": 5,
+      "topology.priority": 29
+    }
+  ]
+}

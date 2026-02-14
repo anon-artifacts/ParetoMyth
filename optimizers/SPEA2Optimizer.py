@@ -1,4 +1,3 @@
-# optimizers/SPEAIIOptimizer.py
 from pathlib import Path
 import sys
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -14,10 +13,10 @@ from ConfigSpace.hyperparameters import (
 from utils import DistanceUtil
 import time
 
+
 class SPEA2Optimizer(BaseOptimizer):
     def __init__(self, config, model_wrapper, model_config, logging_util, seed):
         super().__init__(config, model_wrapper, model_config, logging_util, seed)
-
         self.X_df = self.model_wrapper.X
         self.columns = list(self.X_df.columns)
         self.nn = Data(
@@ -26,13 +25,11 @@ class SPEA2Optimizer(BaseOptimizer):
         )
         self.config_space, _, _ = self.model_config.get_configspace()
         self.cache = {}
-
         self.num_objectives = len(
             self.model_wrapper.get_score(
                 {c: self.X_df.iloc[0][c] for c in self.columns}
             )
         )
-
         self.iteration = 0
         self.population_size = 100
         self.archive_size = 100
@@ -47,6 +44,15 @@ class SPEA2Optimizer(BaseOptimizer):
 
     def _row_tuple(self, hp_dict):
         return tuple(hp_dict[c] for c in self.columns)
+
+    def _is_dominated(self, obj1, obj2):
+        better_in_any = False
+        for a, b in zip(obj1, obj2):
+            if a > b:
+                better_in_any = True
+            elif a < b:
+                return False
+        return better_in_any
 
     def _objective(self, trial):
         raw_hp = {}
@@ -76,46 +82,39 @@ class SPEA2Optimizer(BaseOptimizer):
         self.iteration += 1
         self.track_evaluation(valid_hp, scores, self.iteration)
 
-        # Track frontier every generation
+        # Per-generation frontier: how many of THIS generation's individuals
+        # are non-dominated against the full history so far.
         if self.iteration % self.population_size == 0:
             generation = self.iteration // self.population_size
-            frontier = self._get_current_frontier(trial.study)
-            self.track_frontier(generation, frontier, self.population_size)
+            all_trials = [
+                t for t in trial.study.trials
+                if t.state == optuna.trial.TrialState.COMPLETE
+            ]
+            gen_start  = (generation - 1) * self.population_size
+            gen_trials = all_trials[gen_start : gen_start + self.population_size]
+
+            gen_frontier = [
+                t for t in gen_trials
+                if not any(
+                    self._is_dominated(t.values, other.values)
+                    for other in all_trials
+                    if other is not t
+                )
+            ]
+            self.track_frontier(generation, gen_frontier, self.population_size)
 
         return scores
 
-    def _is_dominated(self, obj1, obj2):
-        better_in_any = False
-        for a, b in zip(obj1, obj2):
-            if a > b:
-                better_in_any = True
-            elif a < b:
-                return False
-        return better_in_any
-
-    def _get_current_frontier(self, study):
-        all_trials = [t for t in study.trials if t.state == optuna.trial.TrialState.COMPLETE]
-        frontier = []
-        for trial in all_trials:
-            is_dominated = False
-            for other in all_trials:
-                if trial != other and self._is_dominated(trial.values, other.values):
-                    is_dominated = True
-                    break
-            if not is_dominated:
-                frontier.append(trial)
-        return frontier
-
     def optimize(self):
         n_trials = self.config["n_trials"]
-        generations = n_trials // self.population_size
 
         self.start_time = time.time()
+
         module = optunahub.load_module("samplers/speaii")
         sampler = module.SPEAIISampler(
             population_size=self.population_size,
             archive_size=self.archive_size,
-            seed=self.seed
+            seed=self.seed,
         )
 
         study = optuna.create_study(
@@ -124,12 +123,25 @@ class SPEA2Optimizer(BaseOptimizer):
         )
 
         study.optimize(self._objective, n_trials=n_trials, catch=(Exception,))
+        # No second track_frontier here — every generation already tracked
+        # inside _objective, including the final one.
 
-        # Final frontier tracking
-        frontier = self._get_current_frontier(study)
-        self.track_frontier(generations, frontier, len(study.trials))
+        # Final global frontier across all trials
+        all_trials = [
+            t for t in study.trials
+            if t.state == optuna.trial.TrialState.COMPLETE
+        ]
+        frontier = []
+        for t in all_trials:
+            is_dominated = False
+            for other in all_trials:
+                if other is not t and self._is_dominated(t.values, other.values):
+                    is_dominated = True
+                    break
+            if not is_dominated:
+                frontier.append(t)
 
-        # Find best by d2h/N
+        # Find best by d2h
         best_trial = None
         best_d2h_norm = float("inf")
         ideal = [0] * self.num_objectives

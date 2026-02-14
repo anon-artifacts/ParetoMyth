@@ -1,0 +1,4826 @@
+{
+  "optimizer": "MOTPE",
+  "dataset": "Health-Commits0011",
+  "checkpoint": 300,
+  "seed": 9,
+  "runtime_seconds": 1.5638940334320068,
+  "best_value": 0.0,
+  "n_evaluations": 300,
+  "start_timestamp": 1770820408.0779166,
+  "end_timestamp": 1770820409.6418114,
+  "evaluation_history": [
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.42355371900826433,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 1,
+      "timestamp": 0.001825571060180664
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 1.75,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5764462809917356,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 2,
+      "timestamp": 0.0030517578125
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.588595041322314,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 3,
+      "timestamp": 0.004372596740722656
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 7.25,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.5794214876033058,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 4,
+      "timestamp": 0.005700349807739258
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 6.75,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.577603305785124,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 5,
+      "timestamp": 0.006937503814697266
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 6,
+      "timestamp": 0.008126497268676758
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 7.5,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5775619834710745,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 7,
+      "timestamp": 0.009310245513916016
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5881404958677686,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 8,
+      "timestamp": 0.010463714599609375
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 3.75,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5830165289256198,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 9,
+      "timestamp": 0.011605978012084961
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 10,
+      "timestamp": 0.012752056121826172
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.4173553719008264,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 11,
+      "timestamp": 0.01563882827758789
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.21252066115702473,
+        1.0,
+        0.5
+      ],
+      "iteration": 12,
+      "timestamp": 0.01864314079284668
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.4173553719008264,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 13,
+      "timestamp": 0.021629810333251953
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.568884297520661,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 14,
+      "timestamp": 0.02465510368347168
+    },
+    {
+      "config": {
+        "N_estimators": 180.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 4.0,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.5832644628099174,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 15,
+      "timestamp": 0.027806997299194336
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 16,
+      "timestamp": 0.03104710578918457
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 0.25,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.591694214876033,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 17,
+      "timestamp": 0.03446698188781738
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 0.25,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.591694214876033,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 18,
+      "timestamp": 0.03746795654296875
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 6.75,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.6002892561983472,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 19,
+      "timestamp": 0.04063820838928223
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 6.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.5830165289256198,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 20,
+      "timestamp": 0.04374098777770996
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 3.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 21,
+      "timestamp": 0.04686594009399414
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 2.75,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.41838842975206614,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 22,
+      "timestamp": 0.05013918876647949
+    },
+    {
+      "config": {
+        "N_estimators": 180.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 9.75,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5719421487603306,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 23,
+      "timestamp": 0.053255558013916016
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.41582644628099175,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 24,
+      "timestamp": 0.05631518363952637
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5619834710743802,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 25,
+      "timestamp": 0.05935502052307129
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 2.0,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 26,
+      "timestamp": 0.06234884262084961
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5666528925619835,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 27,
+      "timestamp": 0.06542205810546875
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.582190082644628,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 28,
+      "timestamp": 0.06843709945678711
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 9.25,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.571900826446281,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 29,
+      "timestamp": 0.0715932846069336
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.5954545454545455,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 30,
+      "timestamp": 0.0747365951538086
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 31,
+      "timestamp": 0.07783889770507812
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 8.75,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 32,
+      "timestamp": 0.08125853538513184
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 9.75,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5829752066115703,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 33,
+      "timestamp": 0.08482980728149414
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 7.0,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 34,
+      "timestamp": 0.0882272720336914
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 35,
+      "timestamp": 0.09189534187316895
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 36,
+      "timestamp": 0.09538006782531738
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.5798760330578513,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 37,
+      "timestamp": 0.09880447387695312
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5743801652892562,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 38,
+      "timestamp": 0.10222506523132324
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 39,
+      "timestamp": 0.10565900802612305
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5771487603305785,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 40,
+      "timestamp": 0.10927391052246094
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.5719834710743801,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 41,
+      "timestamp": 0.11277008056640625
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 6.0,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 42,
+      "timestamp": 0.11633944511413574
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 4.75,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 43,
+      "timestamp": 0.11994457244873047
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 7.5,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.5789669421487604,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 44,
+      "timestamp": 0.12356448173522949
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 5.5,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.5873140495867768,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 45,
+      "timestamp": 0.12726831436157227
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.5855785123966942,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 46,
+      "timestamp": 0.13096332550048828
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 9.0,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.583595041322314,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 47,
+      "timestamp": 0.13460659980773926
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.5709917355371901,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 48,
+      "timestamp": 0.1381692886352539
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 1.0,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5872727272727273,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 49,
+      "timestamp": 0.1417398452758789
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 3.0,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.5847107438016529,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 50,
+      "timestamp": 0.14540362358093262
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 51,
+      "timestamp": 0.1490163803100586
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 2.0,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 52,
+      "timestamp": 0.1527848243713379
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 8.75,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 53,
+      "timestamp": 0.15648293495178223
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 1.0,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5970661157024794,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 54,
+      "timestamp": 0.16028809547424316
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.5932231404958678,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 55,
+      "timestamp": 0.16399908065795898
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 3.25,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 56,
+      "timestamp": 0.16782712936401367
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 0.75,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.6017768595041322,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 57,
+      "timestamp": 0.17159104347229004
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 1.5,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.5786776859504132,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 58,
+      "timestamp": 0.17528676986694336
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 7.25,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 59,
+      "timestamp": 0.17911267280578613
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 9.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5826446280991735,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 60,
+      "timestamp": 0.1830594539642334
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 0.75,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.41838842975206614,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 61,
+      "timestamp": 0.18693757057189941
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.6143388429752066,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 62,
+      "timestamp": 0.19098401069641113
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.5771487603305785,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 63,
+      "timestamp": 0.19499897956848145
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 5.5,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 64,
+      "timestamp": 0.19881558418273926
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.4164049586776859,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 65,
+      "timestamp": 0.20297503471374512
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 6.0,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.5684297520661157,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 66,
+      "timestamp": 0.20690155029296875
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 2.0,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 67,
+      "timestamp": 0.21087956428527832
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 6.75,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.5752892561983471,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 68,
+      "timestamp": 0.21498489379882812
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 7.5,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.5661157024793388,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 69,
+      "timestamp": 0.21906518936157227
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 5.5,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5655785123966942,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 70,
+      "timestamp": 0.22308993339538574
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 7.25,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 71,
+      "timestamp": 0.22702360153198242
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.5730165289256198,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 72,
+      "timestamp": 0.23128509521484375
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 4.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5780578512396694,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 73,
+      "timestamp": 0.23543906211853027
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.5732644628099173,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 74,
+      "timestamp": 0.2396385669708252
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 9.25,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5806611570247935,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 75,
+      "timestamp": 0.243790864944458
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5753305785123967,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 76,
+      "timestamp": 0.24791479110717773
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 6.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.573388429752066,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 77,
+      "timestamp": 0.25191712379455566
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 78,
+      "timestamp": 0.25599241256713867
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.41871900826446273,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 79,
+      "timestamp": 0.2600867748260498
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5859504132231406,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 80,
+      "timestamp": 0.2641305923461914
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5866528925619835,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 81,
+      "timestamp": 0.26828503608703613
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 0.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.591694214876033,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 82,
+      "timestamp": 0.27248573303222656
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5848760330578512,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 83,
+      "timestamp": 0.276442289352417
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 7.75,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.4173553719008264,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 84,
+      "timestamp": 0.2803957462310791
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 85,
+      "timestamp": 0.2842905521392822
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 8.75,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5756198347107438,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 86,
+      "timestamp": 0.288435697555542
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 3.5,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.6060743801652893,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 87,
+      "timestamp": 0.29241228103637695
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 88,
+      "timestamp": 0.2965385913848877
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.5735950413223141,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 89,
+      "timestamp": 0.3007662296295166
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 3.75,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.4164049586776859,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 90,
+      "timestamp": 0.30493664741516113
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5810743801652892,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 91,
+      "timestamp": 0.3090660572052002
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 6.5,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5788016528925619,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 92,
+      "timestamp": 0.31344151496887207
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 1.5,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.599504132231405,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 93,
+      "timestamp": 0.3178105354309082
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.41582644628099175,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 94,
+      "timestamp": 0.3222167491912842
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.5780578512396694,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 95,
+      "timestamp": 0.32657885551452637
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 0.75,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.5454545454545454,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 96,
+      "timestamp": 0.3309504985809326
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 2.0,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5643388429752065,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 97,
+      "timestamp": 0.33533287048339844
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.5888842975206611,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 98,
+      "timestamp": 0.3397555351257324
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 6.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.41566115702479345,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 99,
+      "timestamp": 0.3440845012664795
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 3.75,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5772727272727273,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 100,
+      "timestamp": 0.34853053092956543
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 101,
+      "timestamp": 0.35298824310302734
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 9.0,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.41809917355371895,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 102,
+      "timestamp": 0.35742831230163574
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 1.75,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.5724380165289257,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 103,
+      "timestamp": 0.36199307441711426
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.59,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 104,
+      "timestamp": 0.3665022850036621
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5797520661157025,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 105,
+      "timestamp": 0.37093353271484375
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 0.25,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.5740909090909091,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 106,
+      "timestamp": 0.3752765655517578
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 7.0,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.5730165289256198,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 107,
+      "timestamp": 0.37967801094055176
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.585289256198347,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 108,
+      "timestamp": 0.38413476943969727
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.4154132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 109,
+      "timestamp": 0.3886747360229492
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 4.75,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 110,
+      "timestamp": 0.3931918144226074
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.5819834710743802,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 111,
+      "timestamp": 0.39784884452819824
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5849586776859504,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 112,
+      "timestamp": 0.40261054039001465
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 113,
+      "timestamp": 0.40725255012512207
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 9.25,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5367355371900826,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 114,
+      "timestamp": 0.4120173454284668
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 2.75,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5777685950413223,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 115,
+      "timestamp": 0.41660118103027344
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 2.75,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 116,
+      "timestamp": 0.421201229095459
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 117,
+      "timestamp": 0.42597532272338867
+    },
+    {
+      "config": {
+        "N_estimators": 50.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5658264462809918,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 118,
+      "timestamp": 0.4308133125305176
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 2.75,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 119,
+      "timestamp": 0.4354584217071533
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 7.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5488842975206613,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 120,
+      "timestamp": 0.4403512477874756
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 9.0,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.42698347107438006,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 121,
+      "timestamp": 0.44497251510620117
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 6.0,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.566900826446281,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 122,
+      "timestamp": 0.44980502128601074
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 3.25,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5838429752066115,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 123,
+      "timestamp": 0.45455074310302734
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 3.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5874793388429752,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 124,
+      "timestamp": 0.4593627452850342
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.5330578512396694,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 125,
+      "timestamp": 0.4642953872680664
+    },
+    {
+      "config": {
+        "N_estimators": 120.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 126,
+      "timestamp": 0.4691627025604248
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 0.75,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.58400826446281,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 127,
+      "timestamp": 0.4741179943084717
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 3.5,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.4154132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 128,
+      "timestamp": 0.4789614677429199
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5753305785123967,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 129,
+      "timestamp": 0.4837467670440674
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 4.0,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 130,
+      "timestamp": 0.488633394241333
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 7.0,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5662809917355371,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 131,
+      "timestamp": 0.49347352981567383
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 2.75,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.564504132231405,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 132,
+      "timestamp": 0.49808597564697266
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 6.5,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 133,
+      "timestamp": 0.5026679039001465
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.4191322314049587,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 134,
+      "timestamp": 0.5076942443847656
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5578512396694215,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 135,
+      "timestamp": 0.5125021934509277
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.5454545454545454,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 136,
+      "timestamp": 0.5172405242919922
+    },
+    {
+      "config": {
+        "N_estimators": 180.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 7.5,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.41553719008264456,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 137,
+      "timestamp": 0.522106409072876
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 3.0,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5752892561983471,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 138,
+      "timestamp": 0.5270817279815674
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.41838842975206614,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 139,
+      "timestamp": 0.5322761535644531
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 3.0,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5833884297520662,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 140,
+      "timestamp": 0.5372288227081299
+    },
+    {
+      "config": {
+        "N_estimators": 50.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 0.25,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 141,
+      "timestamp": 0.5422952175140381
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5640909090909091,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 142,
+      "timestamp": 0.5473935604095459
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.5856198347107437,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 143,
+      "timestamp": 0.5524632930755615
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5876859504132231,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 144,
+      "timestamp": 0.5575032234191895
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.58400826446281,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 145,
+      "timestamp": 0.562603235244751
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 9.0,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.41698347107438005,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 146,
+      "timestamp": 0.5676698684692383
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 2.0,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.6005371900826447,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 147,
+      "timestamp": 0.5729191303253174
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 8.5,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.5857438016528925,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 148,
+      "timestamp": 0.5779385566711426
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 6.75,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5919834710743801,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 149,
+      "timestamp": 0.583045482635498
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5859504132231406,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 150,
+      "timestamp": 0.5881526470184326
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.4154132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 151,
+      "timestamp": 0.5934023857116699
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 0.0,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.42355371900826433,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 152,
+      "timestamp": 0.5986037254333496
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 4.0,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.582107438016529,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 153,
+      "timestamp": 0.6038753986358643
+    },
+    {
+      "config": {
+        "N_estimators": 120.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.5881404958677686,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 154,
+      "timestamp": 0.6090326309204102
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.4178099173553719,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 155,
+      "timestamp": 0.6142101287841797
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.5991735537190083,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 156,
+      "timestamp": 0.6193568706512451
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 4.0,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5715289256198347,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 157,
+      "timestamp": 0.6246387958526611
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.5684297520661157,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 158,
+      "timestamp": 0.6301281452178955
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 8.75,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.5877272727272727,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 159,
+      "timestamp": 0.63539719581604
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 4.0,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.4154132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 160,
+      "timestamp": 0.6406536102294922
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 3.5,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 161,
+      "timestamp": 0.6460986137390137
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 162,
+      "timestamp": 0.6513946056365967
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.4173553719008264,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 163,
+      "timestamp": 0.6567647457122803
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.5913636363636364,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 164,
+      "timestamp": 0.6622188091278076
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 3.25,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.5847107438016529,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 165,
+      "timestamp": 0.6675512790679932
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 8.5,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 166,
+      "timestamp": 0.672882080078125
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 3.0,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.5876859504132231,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 167,
+      "timestamp": 0.6786394119262695
+    },
+    {
+      "config": {
+        "N_estimators": 50.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 1.75,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 168,
+      "timestamp": 0.684222936630249
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 3.25,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.5749586776859503,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 169,
+      "timestamp": 0.689655065536499
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.562396694214876,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 170,
+      "timestamp": 0.6953871250152588
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 2.0,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 171,
+      "timestamp": 0.7008960247039795
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 9.25,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.5662809917355371,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 172,
+      "timestamp": 0.7065560817718506
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 6.75,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5826446280991735,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 173,
+      "timestamp": 0.7119717597961426
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 2.0,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 174,
+      "timestamp": 0.7173545360565186
+    },
+    {
+      "config": {
+        "N_estimators": 180.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 3.5,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 175,
+      "timestamp": 0.7228596210479736
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 8.5,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.5731818181818182,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 176,
+      "timestamp": 0.7285041809082031
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 0.75,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.5921074380165289,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 177,
+      "timestamp": 0.7338414192199707
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 3.0,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5694214876033058,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 178,
+      "timestamp": 0.7392878532409668
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 5.5,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.41838842975206614,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 179,
+      "timestamp": 0.7449898719787598
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.5765289256198347,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 180,
+      "timestamp": 0.7507741451263428
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.5841735537190083,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 181,
+      "timestamp": 0.7563393115997314
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 6.5,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5751652892561984,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 182,
+      "timestamp": 0.7621493339538574
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 3.25,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.5766115702479339,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 183,
+      "timestamp": 0.7677083015441895
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 7.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.5804132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 184,
+      "timestamp": 0.7733767032623291
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 3.75,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.42698347107438006,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 185,
+      "timestamp": 0.779003381729126
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5900826446280992,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 186,
+      "timestamp": 0.7846686840057373
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 2.75,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 187,
+      "timestamp": 0.7903215885162354
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.5754958677685951,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 188,
+      "timestamp": 0.7962417602539062
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.5838429752066115,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 189,
+      "timestamp": 0.8019731044769287
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 7.5,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.4154132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 190,
+      "timestamp": 0.8076989650726318
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 0.75,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.5991735537190083,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 191,
+      "timestamp": 0.8133749961853027
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 4.75,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.5727272727272728,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 192,
+      "timestamp": 0.8192861080169678
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 6.5,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 193,
+      "timestamp": 0.8251302242279053
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 3.5,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.5468181818181819,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 194,
+      "timestamp": 0.8311562538146973
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 195,
+      "timestamp": 0.8368799686431885
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 0.75,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5750826446280991,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 196,
+      "timestamp": 0.8427755832672119
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 8.5,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5754545454545454,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 197,
+      "timestamp": 0.8487250804901123
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.4164049586776859,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 198,
+      "timestamp": 0.8544681072235107
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 199,
+      "timestamp": 0.8603036403656006
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 200,
+      "timestamp": 0.8664491176605225
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.41599173553719004,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 201,
+      "timestamp": 0.8724472522735596
+    },
+    {
+      "config": {
+        "N_estimators": 50.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 5.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.5867768595041323,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 202,
+      "timestamp": 0.8784544467926025
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 8.5,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5757438016528926,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 203,
+      "timestamp": 0.8845720291137695
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5759090909090909,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 204,
+      "timestamp": 0.8904600143432617
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5564876033057851,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 205,
+      "timestamp": 0.8966131210327148
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 1.75,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.4175619834710743,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 206,
+      "timestamp": 0.9027309417724609
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 1.75,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.5651239669421487,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 207,
+      "timestamp": 0.9090142250061035
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 1.75,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5792148760330578,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 208,
+      "timestamp": 0.9148783683776855
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 6.0,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.5812809917355372,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 209,
+      "timestamp": 0.9209942817687988
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 6.75,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.574793388429752,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 210,
+      "timestamp": 0.9269633293151855
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.5495867768595041,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 211,
+      "timestamp": 0.932844877243042
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 9.25,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.5643801652892563,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 212,
+      "timestamp": 0.9386930465698242
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 9.75,
+        "Max_depth": 8.0
+      },
+      "objectives": [
+        0.5785123966942148,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 213,
+      "timestamp": 0.9444103240966797
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.4201239669421487,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 214,
+      "timestamp": 0.9503879547119141
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 9.75,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.5785123966942148,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 215,
+      "timestamp": 0.9562876224517822
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 1.5,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5909090909090909,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 216,
+      "timestamp": 0.9623537063598633
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 217,
+      "timestamp": 0.9684224128723145
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.5978099173553718,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 218,
+      "timestamp": 0.9745769500732422
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.4173553719008264,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 219,
+      "timestamp": 0.9807486534118652
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5654132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 220,
+      "timestamp": 0.9867837429046631
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 6.75,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.588595041322314,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 221,
+      "timestamp": 0.9931609630584717
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.562603305785124,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 222,
+      "timestamp": 0.9996116161346436
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 5.0,
+        "Min_impurity_decrease": 9.0,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.4154132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 223,
+      "timestamp": 1.0060224533081055
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 9.75,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.5844628099173553,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 224,
+      "timestamp": 1.0121402740478516
+    },
+    {
+      "config": {
+        "N_estimators": 180.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 7.75,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.5837190082644628,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 225,
+      "timestamp": 1.0185797214508057
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 226,
+      "timestamp": 1.0249826908111572
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.588595041322314,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 227,
+      "timestamp": 1.0314815044403076
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 1.5,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.41615702479338834,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 228,
+      "timestamp": 1.0384666919708252
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 7.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 229,
+      "timestamp": 1.0446929931640625
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.6005371900826447,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 230,
+      "timestamp": 1.0511364936828613
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 0.25,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.41838842975206614,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 231,
+      "timestamp": 1.0574188232421875
+    },
+    {
+      "config": {
+        "N_estimators": 50.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 232,
+      "timestamp": 1.0638532638549805
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.5664049586776859,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 233,
+      "timestamp": 1.0702638626098633
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 6.75,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5806611570247935,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 234,
+      "timestamp": 1.0766170024871826
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.5845867768595041,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 235,
+      "timestamp": 1.0829777717590332
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5827685950413223,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 236,
+      "timestamp": 1.0894060134887695
+    },
+    {
+      "config": {
+        "N_estimators": 120.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 5.5,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.582396694214876,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 237,
+      "timestamp": 1.0959217548370361
+    },
+    {
+      "config": {
+        "N_estimators": 150.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 8.5,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.5777685950413223,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 238,
+      "timestamp": 1.1024701595306396
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.6106611570247934,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 239,
+      "timestamp": 1.1089842319488525
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 9.75,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.5772314049586776,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 240,
+      "timestamp": 1.1152918338775635
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 9.0,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.580702479338843,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 241,
+      "timestamp": 1.121842622756958
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5720247933884298,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 242,
+      "timestamp": 1.1285552978515625
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 243,
+      "timestamp": 1.1352639198303223
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 7.0,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5151652892561983,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 244,
+      "timestamp": 1.1421043872833252
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 7.0,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 245,
+      "timestamp": 1.1485774517059326
+    },
+    {
+      "config": {
+        "N_estimators": 120.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 8.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.41665289256198346,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 246,
+      "timestamp": 1.1551685333251953
+    },
+    {
+      "config": {
+        "N_estimators": 50.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.5482231404958677,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 247,
+      "timestamp": 1.1613893508911133
+    },
+    {
+      "config": {
+        "N_estimators": 80.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.42355371900826433,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 248,
+      "timestamp": 1.1677658557891846
+    },
+    {
+      "config": {
+        "N_estimators": 120.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 6.0,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 249,
+      "timestamp": 1.174135684967041
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 250,
+      "timestamp": 1.1808578968048096
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 9.25,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5790495867768595,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 251,
+      "timestamp": 1.1876530647277832
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5773966942148759,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 252,
+      "timestamp": 1.1943199634552002
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 1.0,
+        "Max_depth": 14.0
+      },
+      "objectives": [
+        0.5719421487603306,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 253,
+      "timestamp": 1.2010536193847656
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.4175619834710743,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 254,
+      "timestamp": 1.2079179286956787
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5787190082644629,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 255,
+      "timestamp": 1.2145562171936035
+    },
+    {
+      "config": {
+        "N_estimators": 120.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 4.75,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5679338842975207,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 256,
+      "timestamp": 1.2211189270019531
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 3.0,
+        "Max_depth": 4.0
+      },
+      "objectives": [
+        0.5799586776859504,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 257,
+      "timestamp": 1.2278187274932861
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 5.0
+      },
+      "objectives": [
+        0.5943388429752067,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 258,
+      "timestamp": 1.2347755432128906
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "squared_error",
+        "Min_sample_leaves": 17.0,
+        "Min_impurity_decrease": 7.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5755785123966942,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 259,
+      "timestamp": 1.2415385246276855
+    },
+    {
+      "config": {
+        "N_estimators": 70.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 260,
+      "timestamp": 1.2479736804962158
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 0.75,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.5847107438016529,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 261,
+      "timestamp": 1.2548811435699463
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 262,
+      "timestamp": 1.2616736888885498
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 2.75,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 263,
+      "timestamp": 1.268387794494629
+    },
+    {
+      "config": {
+        "N_estimators": 100.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 8.5,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5829338842975207,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 264,
+      "timestamp": 1.2751193046569824
+    },
+    {
+      "config": {
+        "N_estimators": 90.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 2.25,
+        "Max_depth": 2.0
+      },
+      "objectives": [
+        0.5965702479338844,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 265,
+      "timestamp": 1.2818069458007812
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 266,
+      "timestamp": 1.288433313369751
+    },
+    {
+      "config": {
+        "N_estimators": 130.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 20.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.5867768595041323,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 267,
+      "timestamp": 1.2951700687408447
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 8.0,
+        "Max_depth": 13.0
+      },
+      "objectives": [
+        0.5794214876033058,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 268,
+      "timestamp": 1.3018479347229004
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.621198347107438,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 269,
+      "timestamp": 1.3087546825408936
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 0.5,
+        "Max_depth": 20.0
+      },
+      "objectives": [
+        0.4154132231404959,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 270,
+      "timestamp": 1.3153715133666992
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 1.25,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 271,
+      "timestamp": 1.3220832347869873
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 0.0,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.5909090909090909,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 272,
+      "timestamp": 1.3288929462432861
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 7.0,
+        "Max_depth": 19.0
+      },
+      "objectives": [
+        0.41582644628099175,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 273,
+      "timestamp": 1.335556983947754
+    },
+    {
+      "config": {
+        "N_estimators": 50.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5768595041322314,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 274,
+      "timestamp": 1.3423216342926025
+    },
+    {
+      "config": {
+        "N_estimators": 140.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 2.0,
+        "Min_impurity_decrease": 5.0,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 275,
+      "timestamp": 1.3492367267608643
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 8.25,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.589793388429752,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 276,
+      "timestamp": 1.3561086654663086
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.5674793388429753,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 277,
+      "timestamp": 1.3630712032318115
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 2.5,
+        "Max_depth": 17.0
+      },
+      "objectives": [
+        0.5858677685950413,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 278,
+      "timestamp": 1.3696892261505127
+    },
+    {
+      "config": {
+        "N_estimators": 180.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 5.0,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5765289256198347,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 279,
+      "timestamp": 1.3762731552124023
+    },
+    {
+      "config": {
+        "N_estimators": 120.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 4.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 280,
+      "timestamp": 1.3827176094055176
+    },
+    {
+      "config": {
+        "N_estimators": 50.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 0.25,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.5909090909090909,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 281,
+      "timestamp": 1.3893682956695557
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 5.75,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.4201239669421487,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 282,
+      "timestamp": 1.3960328102111816
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 7.5,
+        "Max_depth": 16.0
+      },
+      "objectives": [
+        0.596404958677686,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 283,
+      "timestamp": 1.4028396606445312
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 5.25,
+        "Max_depth": 18.0
+      },
+      "objectives": [
+        0.5857851239669422,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 284,
+      "timestamp": 1.4098494052886963
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 13.0,
+        "Min_impurity_decrease": 4.75,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 285,
+      "timestamp": 1.4167954921722412
+    },
+    {
+      "config": {
+        "N_estimators": 110.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 14.0,
+        "Min_impurity_decrease": 5.0,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.58400826446281,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 286,
+      "timestamp": 1.4239952564239502
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 6.0,
+        "Min_impurity_decrease": 4.75,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.5803305785123967,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 287,
+      "timestamp": 1.4309945106506348
+    },
+    {
+      "config": {
+        "N_estimators": 10.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 8.0,
+        "Min_impurity_decrease": 6.0,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5922727272727273,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 288,
+      "timestamp": 1.4380953311920166
+    },
+    {
+      "config": {
+        "N_estimators": 30.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 18.0,
+        "Min_impurity_decrease": 7.5,
+        "Max_depth": 3.0
+      },
+      "objectives": [
+        0.5491322314049586,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 289,
+      "timestamp": 1.4449656009674072
+    },
+    {
+      "config": {
+        "N_estimators": 200.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 15.0,
+        "Min_impurity_decrease": 9.5,
+        "Max_depth": 9.0
+      },
+      "objectives": [
+        0.5845867768595041,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 290,
+      "timestamp": 1.4519178867340088
+    },
+    {
+      "config": {
+        "N_estimators": 60.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 3.0,
+        "Min_impurity_decrease": 6.25,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.43388429752066116,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 291,
+      "timestamp": 1.4589478969573975
+    },
+    {
+      "config": {
+        "N_estimators": 40.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 19.0,
+        "Min_impurity_decrease": 9.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 292,
+      "timestamp": 1.465796947479248
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 7.0,
+        "Min_impurity_decrease": 7.75,
+        "Max_depth": 6.0
+      },
+      "objectives": [
+        0.5764462809917356,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 293,
+      "timestamp": 1.472639799118042
+    },
+    {
+      "config": {
+        "N_estimators": 190.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 10.0,
+        "Min_impurity_decrease": 4.5,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5780578512396694,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 294,
+      "timestamp": 1.4795050621032715
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 9.0,
+        "Min_impurity_decrease": 10.0,
+        "Max_depth": 15.0
+      },
+      "objectives": [
+        0.5770661157024793,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 295,
+      "timestamp": 1.4864528179168701
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 11.0,
+        "Min_impurity_decrease": 0.25,
+        "Max_depth": 10.0
+      },
+      "objectives": [
+        0.41809917355371895,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 296,
+      "timestamp": 1.4933037757873535
+    },
+    {
+      "config": {
+        "N_estimators": 20.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 12.0,
+        "Min_impurity_decrease": 3.0,
+        "Max_depth": 12.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 297,
+      "timestamp": 1.500185251235962
+    },
+    {
+      "config": {
+        "N_estimators": 170.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 1.0,
+        "Min_impurity_decrease": 3.25,
+        "Max_depth": 7.0
+      },
+      "objectives": [
+        0.5645867768595041,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 298,
+      "timestamp": 1.507261037826538
+    },
+    {
+      "config": {
+        "N_estimators": 120.0,
+        "criterion": "absolute_error",
+        "Min_sample_leaves": 16.0,
+        "Min_impurity_decrease": 1.0,
+        "Max_depth": 11.0
+      },
+      "objectives": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iteration": 299,
+      "timestamp": 1.5144164562225342
+    },
+    {
+      "config": {
+        "N_estimators": 160.0,
+        "criterion": "poisson",
+        "Min_sample_leaves": 4.0,
+        "Min_impurity_decrease": 9.0,
+        "Max_depth": 1.0
+      },
+      "objectives": [
+        0.5740495867768595,
+        0.09999999999999998,
+        1.0
+      ],
+      "iteration": 300,
+      "timestamp": 1.521632432937622
+    }
+  ],
+  "frontier_history": [
+    {
+      "iteration": 300,
+      "frontier_size": 65,
+      "total_population": 300,
+      "frontier_percentage": 21.666666666666668
+    }
+  ],
+  "frontier_explosion": {
+    "final_frontier_size": 65,
+    "final_population": 300,
+    "final_percentage": 21.666666666666668
+  }
+}

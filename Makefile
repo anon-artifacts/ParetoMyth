@@ -5,7 +5,7 @@ BUDGETS ?= 6 12 18 24 50 100 200
 
 BASE_CMD = python3 experiment_runner_cluster.py \
 	--name $(NAME) \
-	--repeats 2 \
+	--repeats 10 \
 	--runs_output_folder ../results/results_$(NAME) \
 	--logging_folder ../logging/logging_$(NAME) \
 	--output_directory ../results/tmp/$(NAME)_tmp
@@ -42,9 +42,9 @@ convert-commands:
 			echo "#BSUB -e err_%J.log" >> $$jobfile; \
 			echo "" >> $$jobfile; \
 			echo "source /usr/local/apps/miniconda20240526/etc/profile.d/conda.sh" >> $$jobfile; \
-			echo "conda activate /share/tjmenzie/kgangul/SEOptBench/smac_env" >> $$jobfile; \
+			echo "conda activate /share/tjmenzie/kgangul/ParetoMyth/smac_env" >> $$jobfile; \
 			echo "" >> $$jobfile; \
-			echo "cd /share/tjmenzie/kgangul/SEOptBench/experiments" >> $$jobfile; \
+			echo "cd /share/tjmenzie/kgangul/ParetoMyth/experiments" >> $$jobfile; \
 			echo "$$clean_line --budget $${B}" >> $$jobfile; \
 		done; \
 	done < experiments/$(COMMAND_FILE)

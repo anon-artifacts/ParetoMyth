@@ -1,0 +1,4232 @@
+{
+  "optimizer": "RandomSearch",
+  "dataset": "SS-O",
+  "checkpoint": 200,
+  "seed": 3,
+  "runtime_seconds": 0.037122488021850586,
+  "best_value": 0.18540062176057762,
+  "n_evaluations": 200,
+  "start_timestamp": 1771024386.3524818,
+  "end_timestamp": 1771024386.3896043,
+  "evaluation_history": [
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.0865194192865526,
+        0.4386402983759021
+      ],
+      "iteration": 1,
+      "timestamp": 0.0002429485321044922
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.0689304051670192,
+        0.5390205352114381
+      ],
+      "iteration": 2,
+      "timestamp": 0.00046133995056152344
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.43432172762351673,
+        0.433086458629815
+      ],
+      "iteration": 3,
+      "timestamp": 0.0006549358367919922
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.025181662499987323,
+        0.40665895561705556
+      ],
+      "iteration": 4,
+      "timestamp": 0.0008437633514404297
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.13887628045778544,
+        0.6049479907871123
+      ],
+      "iteration": 5,
+      "timestamp": 0.0010488033294677734
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.04659739162168908,
+        0.40448896128931977
+      ],
+      "iteration": 6,
+      "timestamp": 0.0012454986572265625
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.01727385950422411,
+        0.5594231919573617
+      ],
+      "iteration": 7,
+      "timestamp": 0.001422882080078125
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.5144116894814682,
+        0.602766557729587
+      ],
+      "iteration": 8,
+      "timestamp": 0.0015981197357177734
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4583429792043445,
+        0.4023001267007541
+      ],
+      "iteration": 9,
+      "timestamp": 0.0017747879028320312
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4855933651234283,
+        0.3437015325879318
+      ],
+      "iteration": 10,
+      "timestamp": 0.001965761184692383
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4555878404402762,
+        0.4361237778221869
+      ],
+      "iteration": 11,
+      "timestamp": 0.0021522045135498047
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.43216214768140215,
+        0.5163711773615425
+      ],
+      "iteration": 12,
+      "timestamp": 0.0023369789123535156
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.12984547061909812,
+        0.612076338045417
+      ],
+      "iteration": 13,
+      "timestamp": 0.002521991729736328
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.029996047298970763,
+        0.5315725763854824
+      ],
+      "iteration": 14,
+      "timestamp": 0.0027015209197998047
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.04724766654164947,
+        0.530878178200607
+      ],
+      "iteration": 15,
+      "timestamp": 0.002874612808227539
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.48112875898329666,
+        0.32192959259954557
+      ],
+      "iteration": 16,
+      "timestamp": 0.0030612945556640625
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.43759850161292435,
+        0.39179197122284726
+      ],
+      "iteration": 17,
+      "timestamp": 0.0032351016998291016
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4554547779663707,
+        0.34521817358474305
+      ],
+      "iteration": 18,
+      "timestamp": 0.003414630889892578
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.0625528838037317,
+        0.3948656252039626
+      ],
+      "iteration": 19,
+      "timestamp": 0.0036106109619140625
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4555878404402762,
+        0.4361237778221869
+      ],
+      "iteration": 20,
+      "timestamp": 0.0037605762481689453
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4676881854676065,
+        0.5125869764005546
+      ],
+      "iteration": 21,
+      "timestamp": 0.003957271575927734
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.40483227810031774,
+        0.4168717227198069
+      ],
+      "iteration": 22,
+      "timestamp": 0.004149913787841797
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4385832650119238,
+        0.4049290159529908
+      ],
+      "iteration": 23,
+      "timestamp": 0.0043354034423828125
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4370595543658139,
+        0.3214458016160906
+      ],
+      "iteration": 24,
+      "timestamp": 0.004559755325317383
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.6322509570894372,
+        0.43344240498620956
+      ],
+      "iteration": 25,
+      "timestamp": 0.004769086837768555
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.45659547592643324,
+        0.40749263715878103
+      ],
+      "iteration": 26,
+      "timestamp": 0.004984617233276367
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4824012557660404,
+        0.7700068430518798
+      ],
+      "iteration": 27,
+      "timestamp": 0.0051937103271484375
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.048499060348949685,
+        0.3073902941704868
+      ],
+      "iteration": 28,
+      "timestamp": 0.005385160446166992
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.04093838234446723,
+        0.5064262111091598
+      ],
+      "iteration": 29,
+      "timestamp": 0.005583763122558594
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4577646060390397,
+        0.4908358952723728
+      ],
+      "iteration": 30,
+      "timestamp": 0.005788564682006836
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4535988534134252,
+        0.31822075268187744
+      ],
+      "iteration": 31,
+      "timestamp": 0.005971670150756836
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.13564348153097905,
+        0.5861716522706886
+      ],
+      "iteration": 32,
+      "timestamp": 0.0061490535736083984
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4356318812127412,
+        0.3428860184405782
+      ],
+      "iteration": 33,
+      "timestamp": 0.006325721740722656
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.5427049667558635,
+        0.39979437201037016
+      ],
+      "iteration": 34,
+      "timestamp": 0.006501913070678711
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.1472968731203188,
+        0.606934292571756
+      ],
+      "iteration": 35,
+      "timestamp": 0.006678581237792969
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.035363279508530576,
+        0.5441033684367764
+      ],
+      "iteration": 36,
+      "timestamp": 0.006856679916381836
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.028045980729824227,
+        0.608823028719959
+      ],
+      "iteration": 37,
+      "timestamp": 0.007044792175292969
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4727220664842291,
+        0.24768618046682123
+      ],
+      "iteration": 38,
+      "timestamp": 0.007225751876831055
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.8577458534548729,
+        1.0
+      ],
+      "iteration": 39,
+      "timestamp": 0.0074024200439453125
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.026342073419147072,
+        0.42451885001739353
+      ],
+      "iteration": 40,
+      "timestamp": 0.00757908821105957
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.48814252873795605,
+        0.45505823995629047
+      ],
+      "iteration": 41,
+      "timestamp": 0.007759571075439453
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.024128409204637657,
+        0.4632914339389804
+      ],
+      "iteration": 42,
+      "timestamp": 0.007944583892822266
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4554547779663707,
+        0.34521817358474305
+      ],
+      "iteration": 43,
+      "timestamp": 0.008071422576904297
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.5636720996929833,
+        0.6468265262798086
+      ],
+      "iteration": 44,
+      "timestamp": 0.008239507675170898
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.6706734098465724,
+        0.635517659716629
+      ],
+      "iteration": 45,
+      "timestamp": 0.008419036865234375
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.48644266511119616,
+        0.4544069052247407
+      ],
+      "iteration": 46,
+      "timestamp": 0.008604764938354492
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.01727385950422411,
+        0.5594231919573617
+      ],
+      "iteration": 47,
+      "timestamp": 0.008731603622436523
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.04781769960887461,
+        0.4077442892141525
+      ],
+      "iteration": 48,
+      "timestamp": 0.008906841278076172
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4203060664357049,
+        0.11744009301705916
+      ],
+      "iteration": 49,
+      "timestamp": 0.009101390838623047
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4836232064998174,
+        0.2956407000771777
+      ],
+      "iteration": 50,
+      "timestamp": 0.00929713249206543
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.04747739833420439,
+        0.43884350404628236
+      ],
+      "iteration": 51,
+      "timestamp": 0.009504318237304688
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.059875585955072586,
+        0.4493893400458491
+      ],
+      "iteration": 52,
+      "timestamp": 0.009695291519165039
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.11268609791578421,
+        0.4438368460326785
+      ],
+      "iteration": 53,
+      "timestamp": 0.009890079498291016
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4550745453130165,
+        0.4074711054321182
+      ],
+      "iteration": 54,
+      "timestamp": 0.010090112686157227
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.8837416864385959,
+        0.3622995614929291
+      ],
+      "iteration": 55,
+      "timestamp": 0.010281085968017578
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.05082569498290024,
+        0.4586937374300133
+      ],
+      "iteration": 56,
+      "timestamp": 0.010471820831298828
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.028045980729824227,
+        0.608823028719959
+      ],
+      "iteration": 57,
+      "timestamp": 0.010601282119750977
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.6010444582828293,
+        0.841632804662157
+      ],
+      "iteration": 58,
+      "timestamp": 0.01080942153930664
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.45368857265034157,
+        0.49777987712112726
+      ],
+      "iteration": 59,
+      "timestamp": 0.01099252700805664
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.5155745013379538,
+        0.5385380899608996
+      ],
+      "iteration": 60,
+      "timestamp": 0.011174201965332031
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4191790159088634,
+        0.6273423322493453
+      ],
+      "iteration": 61,
+      "timestamp": 0.01134634017944336
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.04379170680865385,
+        0.5681993891718292
+      ],
+      "iteration": 62,
+      "timestamp": 0.011518001556396484
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.09136185714271272,
+        0.3414063850989685
+      ],
+      "iteration": 63,
+      "timestamp": 0.011688947677612305
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.05568936217962639,
+        0.30772201733438576
+      ],
+      "iteration": 64,
+      "timestamp": 0.011860370635986328
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.06510103649728016,
+        0.5260920790833404
+      ],
+      "iteration": 65,
+      "timestamp": 0.012066364288330078
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4735742728698126,
+        0.3023511972649323
+      ],
+      "iteration": 66,
+      "timestamp": 0.012247323989868164
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.41399766679437966,
+        0.0
+      ],
+      "iteration": 67,
+      "timestamp": 0.01242828369140625
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4657742593234715,
+        0.5869077681759733
+      ],
+      "iteration": 68,
+      "timestamp": 0.012646675109863281
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.46813665528706605,
+        0.3642152122994604
+      ],
+      "iteration": 69,
+      "timestamp": 0.012848615646362305
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.42222100350081937,
+        0.5318349943041852
+      ],
+      "iteration": 70,
+      "timestamp": 0.013056755065917969
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.1158341058454484,
+        0.560227940241384
+      ],
+      "iteration": 71,
+      "timestamp": 0.01324605941772461
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.5633606096662243,
+        0.33416432340922575
+      ],
+      "iteration": 72,
+      "timestamp": 0.013422489166259766
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.41501541149032994,
+        0.2556959827853845
+      ],
+      "iteration": 73,
+      "timestamp": 0.013605356216430664
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4010132713706167,
+        0.2819391203885938
+      ],
+      "iteration": 74,
+      "timestamp": 0.013782501220703125
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4546695450956685,
+        0.32582683512551314
+      ],
+      "iteration": 75,
+      "timestamp": 0.013971805572509766
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.07072605355657158,
+        0.3480045135882016
+      ],
+      "iteration": 76,
+      "timestamp": 0.014154911041259766
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.5287723274534799,
+        0.5694287161909836
+      ],
+      "iteration": 77,
+      "timestamp": 0.014328718185424805
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.041456732076623704,
+        0.4697987254563548
+      ],
+      "iteration": 78,
+      "timestamp": 0.014505386352539062
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.6245770559352687,
+        0.9023987016368821
+      ],
+      "iteration": 79,
+      "timestamp": 0.014687299728393555
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.6706734098465724,
+        0.635517659716629
+      ],
+      "iteration": 80,
+      "timestamp": 0.014808893203735352
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.04234280431501514,
+        0.38231128282663107
+      ],
+      "iteration": 81,
+      "timestamp": 0.014989376068115234
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.636834851905131,
+        0.9215168563140778
+      ],
+      "iteration": 82,
+      "timestamp": 0.015169858932495117
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.031218503493237404,
+        0.41418429408570556
+      ],
+      "iteration": 83,
+      "timestamp": 0.015351295471191406
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.12779153191932435,
+        0.5446134012121016
+      ],
+      "iteration": 84,
+      "timestamp": 0.015527486801147461
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.05773862536987073,
+        0.543273051227342
+      ],
+      "iteration": 85,
+      "timestamp": 0.01570415496826172
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.41933305499309026,
+        0.29368669588252816
+      ],
+      "iteration": 86,
+      "timestamp": 0.01587820053100586
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.0390341863147583,
+        0.5741071566749362
+      ],
+      "iteration": 87,
+      "timestamp": 0.016063928604125977
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.40274434718261376,
+        0.359811974196917
+      ],
+      "iteration": 88,
+      "timestamp": 0.01624441146850586
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4561808719597815,
+        0.2977064001038905
+      ],
+      "iteration": 89,
+      "timestamp": 0.01641845703125
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.5162165625249571,
+        0.45744489728357074
+      ],
+      "iteration": 90,
+      "timestamp": 0.016595125198364258
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.03804057735718969,
+        0.39778653849906354
+      ],
+      "iteration": 91,
+      "timestamp": 0.016771316528320312
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.033664553167872535,
+        0.39392764936121405
+      ],
+      "iteration": 92,
+      "timestamp": 0.016954421997070312
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.41174723032924676,
+        0.5068447340461679
+      ],
+      "iteration": 93,
+      "timestamp": 0.017134904861450195
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.01904221302733422,
+        0.49819436285938634
+      ],
+      "iteration": 94,
+      "timestamp": 0.017310619354248047
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.6421099639404486,
+        0.5898280086046161
+      ],
+      "iteration": 95,
+      "timestamp": 0.017487049102783203
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.7639088826593691,
+        0.5960829752001608
+      ],
+      "iteration": 96,
+      "timestamp": 0.017660856246948242
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.06305834429340162,
+        0.4673636217440833
+      ],
+      "iteration": 97,
+      "timestamp": 0.017833709716796875
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.11130265255555771,
+        0.4804300154961145
+      ],
+      "iteration": 98,
+      "timestamp": 0.018017053604125977
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.698859908592525,
+        0.4780844030227851
+      ],
+      "iteration": 99,
+      "timestamp": 0.018201351165771484
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.43370544492148677,
+        0.3588094031741802
+      ],
+      "iteration": 100,
+      "timestamp": 0.018379926681518555
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4101041046424523,
+        0.42847530479168383
+      ],
+      "iteration": 101,
+      "timestamp": 0.019246816635131836
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.45787391186993076,
+        0.4003784200960987
+      ],
+      "iteration": 102,
+      "timestamp": 0.019432544708251953
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.03884097404258202,
+        0.2593032198678624
+      ],
+      "iteration": 103,
+      "timestamp": 0.019608736038208008
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.7952064907192399,
+        0.3617067661432438
+      ],
+      "iteration": 104,
+      "timestamp": 0.019806385040283203
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.5427049667558635,
+        0.39979437201037016
+      ],
+      "iteration": 105,
+      "timestamp": 0.019942045211791992
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.07581743070389413,
+        0.3082784778953275
+      ],
+      "iteration": 106,
+      "timestamp": 0.02012944221496582
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.07011305634772436,
+        0.5485395769957722
+      ],
+      "iteration": 107,
+      "timestamp": 0.020313501358032227
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.6010444582828293,
+        0.841632804662157
+      ],
+      "iteration": 108,
+      "timestamp": 0.020442962646484375
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4370595543658139,
+        0.3214458016160906
+      ],
+      "iteration": 109,
+      "timestamp": 0.02055501937866211
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.08080657846718087,
+        0.6266916703842538
+      ],
+      "iteration": 110,
+      "timestamp": 0.02073836326599121
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.07099003029730167,
+        0.38284957599320135
+      ],
+      "iteration": 111,
+      "timestamp": 0.020940065383911133
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.05602953708917435,
+        0.38223928611560254
+      ],
+      "iteration": 112,
+      "timestamp": 0.021135568618774414
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.5280966531439136,
+        0.3630498075938362
+      ],
+      "iteration": 113,
+      "timestamp": 0.021315574645996094
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.6647471383354376,
+        0.736708700634311
+      ],
+      "iteration": 114,
+      "timestamp": 0.021494626998901367
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4703297219866215,
+        0.2082595703478517
+      ],
+      "iteration": 115,
+      "timestamp": 0.021674394607543945
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.04878729919318392,
+        0.616980861659329
+      ],
+      "iteration": 116,
+      "timestamp": 0.021854162216186523
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.033540968078148214,
+        0.4938792702628686
+      ],
+      "iteration": 117,
+      "timestamp": 0.02204608917236328
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.5162165625249571,
+        0.45744489728357074
+      ],
+      "iteration": 118,
+      "timestamp": 0.022173166275024414
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.6504065924178905,
+        0.6765288703446892
+      ],
+      "iteration": 119,
+      "timestamp": 0.022340059280395508
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.13698724824276654,
+        0.49479706011187075
+      ],
+      "iteration": 120,
+      "timestamp": 0.022519826889038086
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.03328507870525288,
+        0.4839242110136127
+      ],
+      "iteration": 121,
+      "timestamp": 0.022693157196044922
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.561811120535141,
+        0.5389613229631153
+      ],
+      "iteration": 122,
+      "timestamp": 0.02286982536315918
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.07974877602742425,
+        0.4907894674867562
+      ],
+      "iteration": 123,
+      "timestamp": 0.023056983947753906
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4451497022332256,
+        0.42107108228551193
+      ],
+      "iteration": 124,
+      "timestamp": 0.02323293685913086
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.023042048247214675,
+        0.26930537976919333
+      ],
+      "iteration": 125,
+      "timestamp": 0.023406982421875
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.04355060215508133,
+        0.5759925284908479
+      ],
+      "iteration": 126,
+      "timestamp": 0.023586511611938477
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.6245770559352687,
+        0.9023987016368821
+      ],
+      "iteration": 127,
+      "timestamp": 0.023713350296020508
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4320182178069686,
+        0.41444738487086674
+      ],
+      "iteration": 128,
+      "timestamp": 0.023884296417236328
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.44613787749053013,
+        0.710143259997618
+      ],
+      "iteration": 129,
+      "timestamp": 0.024074792861938477
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4428350722859046,
+        0.33909845314729914
+      ],
+      "iteration": 130,
+      "timestamp": 0.024258136749267578
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.43560155358336106,
+        0.36482953937580853
+      ],
+      "iteration": 131,
+      "timestamp": 0.024435997009277344
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.5140219794439327,
+        0.5925907982820372
+      ],
+      "iteration": 132,
+      "timestamp": 0.02461075782775879
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.43541857688610053,
+        0.24656114774868976
+      ],
+      "iteration": 133,
+      "timestamp": 0.024787425994873047
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.13181360740075032,
+        0.5029878635076932
+      ],
+      "iteration": 134,
+      "timestamp": 0.02496814727783203
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4817853521593778,
+        0.16368822328938837
+      ],
+      "iteration": 135,
+      "timestamp": 0.025145292282104492
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.18077857595605318,
+        0.5639630219509224
+      ],
+      "iteration": 136,
+      "timestamp": 0.025325298309326172
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.6001821426874525,
+        0.6809489301086878
+      ],
+      "iteration": 137,
+      "timestamp": 0.02550363540649414
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.03733444905312089,
+        0.4292235322932163
+      ],
+      "iteration": 138,
+      "timestamp": 0.025676488876342773
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.42312287137951277,
+        0.32843688411691996
+      ],
+      "iteration": 139,
+      "timestamp": 0.02585577964782715
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4439767811669464,
+        0.46946700229245586
+      ],
+      "iteration": 140,
+      "timestamp": 0.02604532241821289
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.44365316008843525,
+        0.7058967997798379
+      ],
+      "iteration": 141,
+      "timestamp": 0.026247739791870117
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.41654253399474517,
+        0.5829937039885504
+      ],
+      "iteration": 142,
+      "timestamp": 0.026448488235473633
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.03807558049609938,
+        0.48215591796142987
+      ],
+      "iteration": 143,
+      "timestamp": 0.02664017677307129
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.41426770906098576,
+        0.2892565431216563
+      ],
+      "iteration": 144,
+      "timestamp": 0.026827335357666016
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.031218503493237404,
+        0.41418429408570556
+      ],
+      "iteration": 145,
+      "timestamp": 0.026975154876708984
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.03804057735718969,
+        0.39778653849906354
+      ],
+      "iteration": 146,
+      "timestamp": 0.02709484100341797
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4325897672556629,
+        0.45392311424128573
+      ],
+      "iteration": 147,
+      "timestamp": 0.02727675437927246
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.561811120535141,
+        0.5389613229631153
+      ],
+      "iteration": 148,
+      "timestamp": 0.02741074562072754
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.1857157876540264,
+        0.46317166370941854
+      ],
+      "iteration": 149,
+      "timestamp": 0.02759575843811035
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.04994063366548829,
+        0.4580208709718008
+      ],
+      "iteration": 150,
+      "timestamp": 0.027790546417236328
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.41399766679437966,
+        0.0
+      ],
+      "iteration": 151,
+      "timestamp": 0.027922630310058594
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.08867255460742396,
+        0.45890905469664145
+      ],
+      "iteration": 152,
+      "timestamp": 0.028117895126342773
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.022474416117315377,
+        0.5041579782785249
+      ],
+      "iteration": 153,
+      "timestamp": 0.028306245803833008
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.14671723630378986,
+        0.4639791034592736
+      ],
+      "iteration": 154,
+      "timestamp": 0.0284879207611084
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.4101041046424523,
+        0.42847530479168383
+      ],
+      "iteration": 155,
+      "timestamp": 0.028613805770874023
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.6409548603564305,
+        0.3636129968193602
+      ],
+      "iteration": 156,
+      "timestamp": 0.028795957565307617
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.636834851905131,
+        0.9215168563140778
+      ],
+      "iteration": 157,
+      "timestamp": 0.028928756713867188
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.41920631077530546,
+        0.19004776678986846
+      ],
+      "iteration": 158,
+      "timestamp": 0.029116392135620117
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.1401830221887045,
+        0.6672634992151012
+      ],
+      "iteration": 159,
+      "timestamp": 0.02929377555847168
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.029486922220750778,
+        0.3908142962590643
+      ],
+      "iteration": 160,
+      "timestamp": 0.02946925163269043
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.6245770559352687,
+        0.9023987016368821
+      ],
+      "iteration": 161,
+      "timestamp": 0.029589176177978516
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.48655159184672003,
+        0.4794503219329568
+      ],
+      "iteration": 162,
+      "timestamp": 0.029762983322143555
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.1823690073867995,
+        0.45932488616781697
+      ],
+      "iteration": 163,
+      "timestamp": 0.029952049255371094
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.029486922220750778,
+        0.3908142962590643
+      ],
+      "iteration": 164,
+      "timestamp": 0.030080795288085938
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.6421462307305824,
+        0.82774416809819
+      ],
+      "iteration": 165,
+      "timestamp": 0.030258655548095703
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.054515303827245676,
+        0.3778858401309666
+      ],
+      "iteration": 166,
+      "timestamp": 0.030438661575317383
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.041456732076623704,
+        0.4697987254563548
+      ],
+      "iteration": 167,
+      "timestamp": 0.030561447143554688
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.04661710458078616,
+        0.40196167487227297
+      ],
+      "iteration": 168,
+      "timestamp": 0.03072953224182129
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.42312287137951277,
+        0.32843688411691996
+      ],
+      "iteration": 169,
+      "timestamp": 0.030849695205688477
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.03550670392247446,
+        0.4187402728742634
+      ],
+      "iteration": 170,
+      "timestamp": 0.031029224395751953
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.03545868517595585,
+        0.46644583189508126
+      ],
+      "iteration": 171,
+      "timestamp": 0.03121209144592285
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.05950495705102221,
+        0.3951018013307952
+      ],
+      "iteration": 172,
+      "timestamp": 0.03139162063598633
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4817853521593778,
+        0.16368822328938837
+      ],
+      "iteration": 173,
+      "timestamp": 0.03151202201843262
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.5287723274534799,
+        0.5694287161909836
+      ],
+      "iteration": 174,
+      "timestamp": 0.031624555587768555
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.12984547061909812,
+        0.612076338045417
+      ],
+      "iteration": 175,
+      "timestamp": 0.03173112869262695
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.44587554349639147,
+        0.4082058756044863
+      ],
+      "iteration": 176,
+      "timestamp": 0.03189420700073242
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.41501541149032994,
+        0.2556959827853845
+      ],
+      "iteration": 177,
+      "timestamp": 0.03202462196350098
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.484156720046664,
+        0.34812966674942913
+      ],
+      "iteration": 178,
+      "timestamp": 0.032210350036621094
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.07086796158904651,
+        0.39174554343723056
+      ],
+      "iteration": 179,
+      "timestamp": 0.03239274024963379
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.052631452582246,
+        0.32108312659511407
+      ],
+      "iteration": 180,
+      "timestamp": 0.03256845474243164
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.011353274423598125,
+        0.3878792527683408
+      ],
+      "iteration": 181,
+      "timestamp": 0.032744646072387695
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.45529277787943156,
+        0.41537190338445096
+      ],
+      "iteration": 182,
+      "timestamp": 0.032935380935668945
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.10467808737794393,
+        0.5576474973741384
+      ],
+      "iteration": 183,
+      "timestamp": 0.03311753273010254
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.438823990570129,
+        0.48670113088665623
+      ],
+      "iteration": 184,
+      "timestamp": 0.03330063819885254
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.0568543222431932,
+        0.36844552372224326
+      ],
+      "iteration": 185,
+      "timestamp": 0.033479928970336914
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.3950684241864866,
+        0.31330613607109226
+      ],
+      "iteration": 186,
+      "timestamp": 0.03365492820739746
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4356624615723662,
+        0.4169813999524955
+      ],
+      "iteration": 187,
+      "timestamp": 0.03383445739746094
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.5630885455576593,
+        0.5373047257429958
+      ],
+      "iteration": 188,
+      "timestamp": 0.03402376174926758
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.6245770559352687,
+        0.9023987016368821
+      ],
+      "iteration": 189,
+      "timestamp": 0.03415060043334961
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.38632560046178865,
+        0.5661175403501192
+      ],
+      "iteration": 190,
+      "timestamp": 0.0343167781829834
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.041578548054634235,
+        0.5056658720113794
+      ],
+      "iteration": 191,
+      "timestamp": 0.03448772430419922
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.1158341058454484,
+        0.560227940241384
+      ],
+      "iteration": 192,
+      "timestamp": 0.03460836410522461
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.45102087855098627,
+        0.5357753002834785
+      ],
+      "iteration": 193,
+      "timestamp": 0.03478217124938965
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 1.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 64.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.024145089400796738,
+        0.6626866615663387
+      ],
+      "iteration": 194,
+      "timestamp": 0.03496599197387695
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 0.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.4490131894860174,
+        0.368536360694102
+      ],
+      "iteration": 195,
+      "timestamp": 0.03514528274536133
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 65536.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.12984547061909812,
+        0.612076338045417
+      ],
+      "iteration": 196,
+      "timestamp": 0.03526711463928223
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.8078445193424566,
+        0.23954987925411397
+      ],
+      "iteration": 197,
+      "timestamp": 0.035436391830444336
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 1.0,
+        "directFlush": 0.0,
+        "binaryLog": 0.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 256.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 1.0
+      },
+      "objectives": [
+        0.4824012557660404,
+        0.7700068430518798
+      ],
+      "iteration": 198,
+      "timestamp": 0.03555607795715332
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 0.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 1.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 8.0,
+        "InnodbLogBufferSize": 8.0
+      },
+      "objectives": [
+        0.09892961159405045,
+        0.5817132391185718
+      ],
+      "iteration": 199,
+      "timestamp": 0.03572559356689453
+    },
+    {
+      "config": {
+        "delayedInnodbLogFlush": 1.0,
+        "delayedInnodbLogWrite": 1.0,
+        "innodbFlushMethod": 1.0,
+        "fsyncFlush": 0.0,
+        "dsyncFlush": 0.0,
+        "directFlush": 1.0,
+        "binaryLog": 1.0,
+        "innodbDoubleWrite": 0.0,
+        "TempTableSize": 4096.0,
+        "InnodbBufferPoolSize": 512.0,
+        "InnodbLogBufferSize": 64.0
+      },
+      "objectives": [
+        0.03165446316557774,
+        0.47736847311124697
+      ],
+      "iteration": 200,
+      "timestamp": 0.0359036922454834
+    }
+  ],
+  "frontier_history": [
+    {
+      "iteration": 1,
+      "frontier_size": 10,
+      "total_population": 100,
+      "frontier_percentage": 10.0
+    },
+    {
+      "iteration": 2,
+      "frontier_size": 4,
+      "total_population": 100,
+      "frontier_percentage": 4.0
+    }
+  ],
+  "frontier_explosion": {
+    "final_frontier_size": 4,
+    "final_population": 100,
+    "final_percentage": 4.0
+  }
+}

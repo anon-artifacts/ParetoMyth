@@ -28,6 +28,7 @@ from optimizers.TurBOOptimizer import TurBOOptimizer
 from optimizers.DEOptimizer import DEOptimizer
 from optimizers.NSGAIIIOptimizerMO import NSGAIIIOptimizer
 from optimizers.NSGA2Optimizer import NSGA2Optimizer
+from optimizers.NSGA2LocalOptimizer import NSGA2LocalOptimizer
 from optimizers.SPEA2Optimizer import SPEA2Optimizer
 from optimizers.MOSMACOptimizer import MOSMACOptimizer
 from optimizers.EZROptimizer import EZROptimizer
@@ -68,6 +69,7 @@ def init_optimizer(optimizer_name, optimizer_config, model_wrapper, model_config
         'DE': DEOptimizer,
         'NSGAIII': NSGAIIIOptimizer,
         'NSGA2': NSGA2Optimizer,
+	'NSGA2Local' : NSGA2LocalOptimizer,
         'SPEA2': SPEA2Optimizer,
         'EZR': EZROptimizer,
         'OTTERTUNE': OtterTuneOptimizer,
